@@ -5,7 +5,7 @@
  * devuelve una promesa con el servicio pedido. El código del Hub no cambia según el backend.
  *
  * Dos modos, según public/js/firebase-config.js:
- *   Firebase (hay apiKey): login con Google restringido al dominio, datos en Firestore.
+ *   Firebase (hay apiKey): datos en Firestore, lectura abierta; los editores ingresan con un link al mail.
  *   Local (sin apiKey):    JSON de data/ servidos por scripts/dev-server.mjs, sin login (fase 1).
  *                          Con ?editor=1 en la URL se simula un editor para probar Gestión.
  *
@@ -119,29 +119,57 @@
     return { db: async () => createStaticDb(), user: async () => devUser };
   };
 
-  /* ════════ Modo Firebase (fase 2) ════════ */
-  let fbReady = null; // promesa con {fs, auth, user, sdk}
+  /* ════════ Modo Firebase ════════
+     Lectura abierta: cualquiera con el link ve el Hub (Firestore lo permite en firestore.rules).
+     Edición: solo editores. Se identifican con un link que les llega al mail (sin contraseña);
+     después Firestore verifica que el mail esté en config/editores. */
+  const LINK_KEY = "neix-hub-mail-editor";
+  let fbReady = null; // promesa con {auth, fs, user, authSdk, fsSdk, linkPendiente}
   function loadFirebase() {
     if (fbReady) return fbReady;
     const base = "https://www.gstatic.com/firebasejs/" + FB_VERSION + "/";
     fbReady = Promise.all([import(base + "firebase-app.js"), import(base + "firebase-auth.js"), import(base + "firebase-firestore.js")]).then(
-      ([appSdk, authSdk, fsSdk]) => {
+      async ([appSdk, authSdk, fsSdk]) => {
         const app = appSdk.initializeApp(CFG);
         const auth = authSdk.getAuth(app);
         const fs = fsSdk.getFirestore(app);
-        // Primer estado de sesión: usuario de Neix, o null (y se cierra cualquier sesión de otro dominio).
-        return new Promise((ok) => {
-          const off = authSdk.onAuthStateChanged(auth, async (u) => {
-            off();
-            if (u && !esNeix(u)) { await authSdk.signOut(auth); u = null; }
-            ok({ app, auth, fs, user: u, authSdk, fsSdk });
-          });
-        });
+        const F = { app, auth, fs, authSdk, fsSdk, user: null, linkPendiente: false, linkError: "" };
+        // ¿Se abrió el link del mail? Completar el ingreso.
+        if (authSdk.isSignInWithEmailLink(auth, location.href)) {
+          let mail = "";
+          try { mail = localStorage.getItem(LINK_KEY) || ""; } catch (_) {}
+          if (mail) {
+            try { await authSdk.signInWithEmailLink(auth, mail, location.href); try { localStorage.removeItem(LINK_KEY); } catch (_) {} }
+            catch (e) { F.linkError = "El link venció o ya se usó. Pedí uno nuevo."; }
+            limpiarURL();
+          } else {
+            F.linkPendiente = true; // abierto en otro navegador: hay que volver a escribir el mail
+          }
+        }
+        F.user = await new Promise((ok) => { const off = authSdk.onAuthStateChanged(auth, (u) => { off(); ok(u); }); });
+        if (F.user && !esNeix(F.user)) { await authSdk.signOut(auth); F.user = null; }
+        if (F.user) {
+          F.editor = await esEditor(F);
+          if (!F.editor) { await authSdk.signOut(auth); F.user = null; F.linkError = "Ese mail no tiene permiso para editar el Hub."; }
+        }
+        return F;
       }
     );
     return fbReady;
   }
+  function limpiarURL() {
+    const u = new URL(location.href);
+    ["apiKey", "oobCode", "mode", "lang", "continueUrl", "tenantId"].forEach((k) => u.searchParams.delete(k));
+    history.replaceState(null, "", u.pathname + (u.search.length > 1 ? u.search : "") + "#inicio");
+  }
   const esNeix = (u) => !!(u && u.email && u.emailVerified && u.email.toLowerCase().endsWith("@" + DOMINIO));
+  // config/editores solo lo puede leer un editor (ver firestore.rules): si la lectura falla, no es editor.
+  async function esEditor(F) {
+    try {
+      const d = await F.fsSdk.getDoc(F.fsSdk.doc(F.fs, "config", "editores"));
+      return d.exists() && (d.data().mails || []).map((m) => String(m).toLowerCase()).includes(F.user.email.toLowerCase());
+    } catch (_) { return false; }
+  }
 
   // Los códigos de Firestore vienen con guion ("permission-denied"); el Hub espera guion bajo.
   const fsErr = (e) => { const x = new Error(e && e.message); x.code = String((e && e.code) || "").replace(/-/g, "_"); return x; };
@@ -165,51 +193,50 @@
       }),
     };
   }
-  function createFirebaseUser(F) {
+  function createEditorUser(F) {
     const u = F.user;
-    const email = u.email.toLowerCase();
-    let editores = null;
-    const leerEditores = async () => {
-      if (!editores) {
-        const d = await F.fsSdk.getDoc(F.fsSdk.doc(F.fs, "config", "editores")).catch(() => null);
-        editores = ((d && d.exists() && d.data().mails) || []).map((m) => String(m).toLowerCase());
-      }
-      return editores;
-    };
     return {
-      canEdit: async () => (await leerEditores()).includes(email),
-      id: async () => email,
+      canEdit: async () => true,
+      id: async () => u.email.toLowerCase(),
       me: async () => ({ name: u.displayName || "", email: u.email || "" }),
       search: async () => [], // el Hub ya busca en config/asesores (data/config/asesores.json)
     };
   }
   const firebaseServices = () => ({
-    db: async () => { const F = await loadFirebase(); return F.user ? createFirestoreDb(F) : null; },
-    user: async () => { const F = await loadFirebase(); return F.user ? createFirebaseUser(F) : null; },
+    db: async () => createFirestoreDb(await loadFirebase()),
+    user: async () => { const F = await loadFirebase(); return F.user ? createEditorUser(F) : null; },
   });
 
-  /* ── Sesión (solo modo Firebase) ── */
-  async function login() {
+  /* ── Acceso de editores (solo modo Firebase) ── */
+  const mailValido = (m) => /^[^\s@]+@[^\s@]+$/.test(m) && m.endsWith("@" + DOMINIO);
+  async function enviarLink(mail) {
+    mail = String(mail || "").trim().toLowerCase();
+    if (!mailValido(mail)) { const e = new Error("dominio"); e.code = "wrong_domain"; throw e; }
     const F = await loadFirebase();
-    const A = F.authSdk;
-    const provider = new A.GoogleAuthProvider();
-    provider.setCustomParameters({ hd: DOMINIO, prompt: "select_account" });
-    const res = await A.signInWithPopup(F.auth, provider);
-    if (!esNeix(res.user)) {
-      await A.signOut(F.auth);
-      const e = new Error("dominio"); e.code = "wrong_domain"; throw e;
-    }
+    await F.authSdk.sendSignInLinkToEmail(F.auth, mail, { url: location.origin + location.pathname, handleCodeInApp: true });
+    try { localStorage.setItem(LINK_KEY, mail); } catch (_) {}
+    return mail;
+  }
+  // Link abierto en otro navegador: se completa con el mail escrito de nuevo.
+  async function completarLink(mail) {
+    mail = String(mail || "").trim().toLowerCase();
+    const F = await loadFirebase();
+    try { await F.authSdk.signInWithEmailLink(F.auth, mail, location.href); }
+    catch (e) { const x = new Error("link"); x.code = "bad_link"; throw x; }
+    limpiarURL();
     location.reload();
   }
   async function logout() {
+    if (MODE !== "firebase") return;
     const F = await loadFirebase();
     await F.authSdk.signOut(F.auth);
     location.reload();
   }
+  // Estado para la barra lateral y la pantalla de acceso.
   async function session() {
     if (MODE !== "firebase") return null;
     const F = await loadFirebase();
-    return F.user ? { name: F.user.displayName || "", email: F.user.email || "" } : null;
+    return { editor: F.user ? { name: F.user.displayName || "", email: F.user.email || "" } : null, linkPendiente: F.linkPendiente, error: F.linkError };
   }
 
   const services = Object.assign(
@@ -224,7 +251,8 @@
       const make = services[name];
       return make ? make().catch((e) => { console.error("neixRuntime." + name, e); return null; }) : Promise.resolve(null);
     },
-    login,
+    enviarLink,
+    completarLink,
     logout,
     session,
   };

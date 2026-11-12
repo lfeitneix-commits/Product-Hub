@@ -626,7 +626,8 @@ function render(anim){
   document.querySelectorAll("[data-admin]").forEach(a => a.hidden = !S.canEdit);
   document.querySelectorAll(".pcount").forEach(c => { c.textContent = S.prop.items.length; c.hidden = !S.prop.items.length; });
   let html;
-  if (S.dbMissing) html = stateMsg("Abrí el Hub con tu cuenta de Neix", "Las fichas viven en una base compartida. Ingresá con tu cuenta de Google de neix.com.ar para verlas.").replace("</p></div>", `</p><button class="btn primary" data-act="login" style="margin-top:18px">Ingresar con Google</button></div>`);
+  if (S.dbMissing) html = stateMsg("No pudimos conectar con la base de fichas", "Revisá tu conexión. El Hub se actualiza solo cuando la base responda.");
+  else if (r === "ingresar") html = vIngresar();
   else if (S.loading && !S.productos.length) html = stateMsg(S.slow ? "No pudimos conectar con la base de fichas" : "Cargando soluciones", S.slow ? "Revisá tu conexión. El Hub se actualiza solo cuando la base responda." : "Un momento.");
   else if (!S.productos.length) html = stateMsg("Todavía no hay fichas cargadas", "Marketing las carga desde Gestión.");
   else if (r === "inicio") html = vInicio();
@@ -1421,6 +1422,31 @@ Respondé SOLO con JSON: {"mensaje":"3 o 4 oraciones que retomen la conversació
 function rebalanceAuto(){ const P = S.prop, fixed = P.items.filter(i=>i.src==="pct"||i.src==="usd"), auto = P.items.filter(i=>!(i.src==="pct"||i.src==="usd")); const used = fixed.reduce((a,i)=>a+(+i.pct||0),0); auto.forEach(i=>{ i.pct = auto.length ? String(r1(Math.max(0,100-used)/auto.length)) : ""; i.src = "auto"; }); }
 function resetTexts(){ S.prop.msgEdited = false; S.prop.items.forEach(i=>{ i.edited = false; }); persist(); render(); toast("Textos automáticos restablecidos"); }
 
+/* ── Acceso de editores ── */
+function vIngresar(){
+  const ses = S.ses || {}, rt = window.neixRuntime || {};
+  if (rt.mode !== "firebase") return stateMsg("Acceso editores", "En modo local, abrí el Hub con ?editor=1 para editar.");
+  if (ses.editor) return `<div class="state"><h2>Ya podés editar</h2><p>Ingresaste como ${esc(ses.editor.email)}. Las fichas se editan desde Gestión.</p><a class="btn primary" href="#gestion" style="margin-top:18px">Ir a Gestión</a></div>`;
+  const ing = S.ing || {};
+  const form = (btn, act, hint) => `<div class="panel stack" style="max-width:420px;margin:18px auto 0;text-align:left"><label class="f" for="edMail">Tu mail de Neix<input class="input" id="edMail" type="email" autocomplete="email" placeholder="nombre@${esc(rt.dominio)}" value="${esc(ing.mail||"")}"></label><button class="btn primary" id="edBtn" data-act="${act}">${btn}</button><p class="tiny muted">${hint}</p></div>`;
+  const err = ses.error ? `<p class="small" style="color:var(--crit);margin-top:10px">${esc(ses.error)}</p>` : "";
+  if (ses.linkPendiente) return `<div class="state"><h2>Confirmá tu mail</h2><p>Abriste el link en otro navegador. Escribí el mail al que te llegó para terminar.</p>${err}${form("Confirmar", "completarLink", "")}</div>`;
+  if (ing.enviado) return `<div class="state"><h2>Revisá tu mail</h2><p>Te mandamos un link a ${esc(ing.enviado)}. Abrilo desde este navegador para editar. Si no llega en unos minutos, revisá Correo no deseado.</p><button class="btn" data-act="ingOtra" style="margin-top:18px">Usar otro mail</button></div>`;
+  return `<div class="state"><h2>Acceso editores</h2><p>Para editar fichas, ingresá tu mail. Te llega un link para entrar, sin contraseña.</p>${err}${form("Enviarme el link", "enviarLink", "Solo pueden editar los mails habilitados por Marketing.")}</div>`;
+}
+async function enviarLink(btn){
+  const mail = ($("#edMail")||{}).value || ""; S.ing = {mail};
+  btn.disabled = true; btn.textContent = "Enviando…";
+  try { S.ing.enviado = await window.neixRuntime.enviarLink(mail); if (S.ses) S.ses.error = ""; render(); }
+  catch(e) { btn.disabled = false; btn.textContent = "Enviarme el link"; toast(e && e.code === "wrong_domain" ? "Usá tu mail de " + window.neixRuntime.dominio : "No pudimos enviar el link. Probá de nuevo."); }
+}
+async function completarLink(btn){
+  const mail = ($("#edMail")||{}).value || ""; S.ing = {mail};
+  btn.disabled = true;
+  try { await window.neixRuntime.completarLink(mail); }
+  catch(e) { btn.disabled = false; toast("Ese mail no coincide con el link, o el link venció."); }
+}
+
 /* ── Gestión ── */
 function vGestion(){
   const rows = S.productos.slice().sort((a,b)=>(a.ultimaRevision||"").localeCompare(b.ultimaRevision||""));
@@ -1472,7 +1498,9 @@ document.addEventListener("click", e => {
   else if (a==="demoP") { if (DEMO.i) { DEMO.i--; demoApply(); } }
   else if (a==="demoX") { DEMO = null; coach(); }
   else if (a==="aiRun") aiRun();
-  else if (a==="login") { b.disabled = true; window.neixRuntime.login().catch(err => { b.disabled = false; if (err && err.code === "wrong_domain") toast("Usá tu cuenta de " + window.neixRuntime.dominio); else if (!(err && /popup-closed|cancelled-popup/.test(err.code||""))) toast("No se pudo iniciar sesión. Probá de nuevo."); }); }
+  else if (a==="enviarLink") enviarLink(b);
+  else if (a==="ingOtra") { S.ing = {}; render(); }
+  else if (a==="completarLink") completarLink(b);
   else if (a==="logout") { e.preventDefault(); window.neixRuntime.logout(); }
   else if (a==="modelProp") { modelProp(v); go("propuesta"); }
   else if (a==="extProp") { S.prop.ext = !S.prop.ext; persist(); render(); if (S.prop.ext) toast("Comparativo sumado a la propuesta"); }
@@ -1506,7 +1534,7 @@ document.addEventListener("change", e => {
   else if (t.id==="patrimonio") { S.cliente.patrimonio = t.value; persist(); render(); }
   else if (t.dataset.s && (t.tagName==="SELECT" || t.type==="checkbox")) { S.simv[S.sim][t.dataset.s] = t.type==="checkbox" ? t.checked : +t.value; $("#simForm").innerHTML = simForm(); calcSim(); }
 });
-document.addEventListener("keydown", e => { if (e.key==="Enter" && e.target.id==="comitente") consultar(); if (e.key==="Enter" && e.target.id==="hq" && e.target.value.trim()) { S.q = e.target.value; go("soluciones"); } });
+document.addEventListener("keydown", e => { if (e.key==="Enter" && e.target.id==="edMail") { const b = $("#edBtn"); if (b) b.click(); } if (e.key==="Enter" && e.target.id==="comitente") consultar(); if (e.key==="Enter" && e.target.id==="hq" && e.target.value.trim()) { S.q = e.target.value; go("soluciones"); } });
 function homeResults(v){
   const box = $("#hres"); if (!box) return; const q = v.trim().toLowerCase();
   if (!q) { box.innerHTML = ""; return; }
@@ -1523,7 +1551,7 @@ async function boot(){
   const c = window.neixRuntime;
   if (!c || !c.use) { S.loading = false; S.dbMissing = true; render(); return; }
   c.use("downloads").then(d => { S.dl = d; });
-  if (c.session) c.session().then(s => { const el = $("#sesion"); if (!s || !el) return; el.innerHTML = `${esc(s.email)} · <a href="#" data-act="logout">Salir</a>`; el.hidden = false; }).catch(()=>{});
+  if (c.session) c.session().then(ses => { if (!ses) return; S.ses = ses; const el = $("#sesion"); if (el) { el.innerHTML = ses.editor ? `${esc(ses.editor.email)} · <a href="#" data-act="logout">Salir</a>` : `<a href="#ingresar">Acceso editores</a>`; el.hidden = false; } if ((ses.linkPendiente || ses.error) && route() !== "ingresar") go("ingresar"); else if (route() === "ingresar") render(); }).catch(()=>{});
   c.use("sample").then(sm => { S.sample = sm; if (S.cliente.tenencia) softRender(); });
   c.use("user").then(async u => { if (!u) return; S.user = u; try { S.canEdit = !!(await u.canEdit()); S.uid = await u.id(); } catch(_){} render(); });
   const db = await c.use("db");

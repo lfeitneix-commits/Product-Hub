@@ -18,7 +18,7 @@ El README original del export está en `README-export.md`.
 | Pieza | Modo local (sin config de Firebase) | Con Firebase |
 | --- | --- | --- |
 | `db` | JSON de `data/` (lo que se edita queda en memoria) | Firestore |
-| `user` | Sin login. `?editor=1` simula un editor | Login con Google, solo neix.com.ar; editores en `config/editores` |
+| `user` | Sin login. `?editor=1` simula un editor | Todos leen sin login. Editores: "Acceso editores" › link al mail; deben estar en `config/editores` |
 | `sample` | Sin IA (fase 3) | Sin IA (fase 3: función `/api` en Vercel) |
 | `downloads` | Blob + `<a download>` | Igual |
 | one pagers | `public/onepagers` vía `onepagers.local.json` | Igual |
@@ -38,11 +38,11 @@ Abrir http://localhost:5173. Para probar Gestión y Editar: http://localhost:517
 ## Conectar Firebase (fase 2)
 1. En https://console.firebase.google.com crear un proyecto (Google Analytics no hace falta).
 2. **Firestore Database** › Crear base de datos › modo producción › ubicación `southamerica-east1` (São Paulo).
-3. **Authentication** › Comenzar › Método de acceso › **Google** › Habilitar.
-   En Configuración › Dominios autorizados ya está `localhost`; el dominio de Vercel se suma en la fase 4.
+3. **Security › Authentication** › **Sign-in method** › **Email/Password** › activar **Email link (passwordless sign-in)** › **Save**.
+   En **Settings › Authorized domains** ya está `localhost`; el dominio de Vercel se suma en la fase 4.
 4. **Configuración del proyecto** › Tus apps › agregar app **Web** (sin Hosting) y copiar los valores de `firebaseConfig`
    en `public/js/firebase-config.js`.
-5. **Reglas**: en Firestore › Reglas, pegar el contenido de `firestore.rules` y publicar.
+5. **Reglas**: en Firestore › **Rules**, pegar el contenido de `firestore.rules` y publicar.
    (O con Firebase CLI: `firebase deploy --only firestore:rules`.)
 6. **Cargar los datos**: Configuración del proyecto › Cuentas de servicio › Generar nueva clave privada.
    Guardar el JSON **fuera del repo**, copiar `.env.example` a `.env` y completar la ruta y los editores.
@@ -65,3 +65,8 @@ npm run seed
 ### Formato en Firestore
 Firestore no admite arrays dentro de arrays (beneficios, objeciones, competencia, matriz impositiva).
 Se guardan como `[{"_a": [...]}]` y el runtime los reconstruye al leer. No editar esos campos a mano en la consola.
+
+### Quién puede hacer qué
+- **Consultar** (fichas, cliente, propuestas, presentaciones): cualquiera que abra el Hub, sin login.
+- **Editar** fichas: tocar "Acceso editores" (pie de la barra lateral), escribir el mail y abrir el link que llega.
+  Solo funciona si el mail está en `config/editores` (variable `EDITORES` del seed). La sesión queda abierta en ese navegador.
