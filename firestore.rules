@@ -1,0 +1,36 @@
+rules_version = '2';
+// Hub de Productos Neix
+// - Leer: cualquier cuenta de Google verificada del dominio neix.com.ar.
+// - Escribir fichas, validaciones y config: solo los mails de config/editores (campo "mails", en minúscula).
+// - Excepción: config/asesores la puede actualizar cualquier usuario de Neix, porque el Hub guarda ahí
+//   el área que elige el asesor al armar una propuesta (saveArea).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function esNeix() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower().matches('.*@neix[.]com[.]ar$');
+    }
+    function esEditor() {
+      return esNeix()
+        && request.auth.token.email.lower() in get(/databases/$(database)/documents/config/editores).data.mails;
+    }
+
+    match /productos/{id} {
+      allow read: if esNeix();
+      allow write: if esEditor();
+    }
+    match /validaciones/{id} {
+      allow read: if esNeix();
+      allow write: if esEditor();
+    }
+    match /config/{id} {
+      allow read: if esNeix();
+      allow write: if esEditor() || (id == 'asesores' && esNeix());
+    }
+    // Todo lo demás, cerrado.
+    match /{otro=**} {
+      allow read, write: if false;
+    }
+  }
+}

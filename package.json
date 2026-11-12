@@ -5,9 +5,13 @@
   "description": "Hub de Productos Neix: consulta de productos, análisis de cartera y propuestas en PDF.",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev-server.mjs"
+    "dev": "node scripts/dev-server.mjs",
+    "seed": "node scripts/seed-firestore.mjs"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "firebase-admin": "^12.7.0"
   }
 }
