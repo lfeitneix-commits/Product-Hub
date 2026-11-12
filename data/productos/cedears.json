@@ -1,0 +1,121 @@
+{
+  "categoria": "Renta variable",
+  "cliente": {
+    "aTener": [
+      "Su valor depende de la acción y del tipo de cambio.",
+      "Los dividendos tributan en escala progresiva para persona humana."
+    ],
+    "bajada": "Invertí en Apple, Microsoft o en un ETF del S\u0026P 500 operando en pesos o en dólares, sin abrir una cuenta afuera.",
+    "beneficios": [
+      [
+        "Acceso global",
+        "Compañías y ETFs líderes sin cuenta en el exterior."
+      ],
+      [
+        "Cobertura cambiaria",
+        "Su precio sigue al dólar CCL."
+      ],
+      [
+        "Eficiencia para persona humana",
+        "La venta está exenta de Ganancias; las acciones compradas afuera tributan 15%."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos con vos compañías o ETFs según tu perfil.",
+      "Comprás en pesos o en dólares desde tu cuenta comitente.",
+      "Cobrás dividendos y podés vender cualquier día hábil."
+    ],
+    "enNeix": "Somos market makers de CEDEARs en ByMA, lo que se traduce en mejores puntas de precio para tus operaciones.",
+    "ficha": {
+      "liquidez": "Diaria, T+1",
+      "mercado": "ByMA",
+      "minimo": "1 CEDEAR",
+      "moneda": "Pesos (ajustado a CCL) o dólares",
+      "plazo": "Mediano a largo",
+      "riesgo": "Moderado a alto"
+    },
+    "paraQuien": "Inversores que quieren acciones globales desde el mercado local, con montos bajos y operatoria simple.",
+    "queEs": "Un CEDEAR es un certificado que representa acciones o ETFs extranjeros y cotiza en la Bolsa local. Su precio sigue al activo de afuera, ajustado por el dólar contado con liquidación. Por eso, además de exposición global, te da una cobertura frente a la devaluación del peso.",
+    "titular": "Las compañías más grandes del mundo, desde la Bolsa argentina"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 4 · CEDEARs",
+  "impuestos": [
+    "cedears"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Brokers del exterior",
+        "Se opera en pesos o MEP sin abrir cuenta afuera; persona física exenta de Ganancias por venta."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Prefiero comprar afuera.",
+        "Si no llegás al mínimo o no querés una cuenta afuera, el CEDEAR te da la misma exposición con ventaja impositiva en la venta."
+      ]
+    ],
+    "operativa": [
+      "Compra mínima 1 CEDEAR, liquidación T+1."
+    ],
+    "perfiles": [
+      "Moderados y agresivos",
+      "Inversores jóvenes o que recién empiezan a dolarizar",
+      "Clientes que no llegan al mínimo de off shore"
+    ],
+    "pitch": "La forma más simple de tener Apple o el S\u0026P 500 en tu cartera, con cobertura de dólar y venta exenta de Ganancias.",
+    "preguntas": [
+      "¿Qué compañías del mundo conocés y seguís?"
+    ],
+    "relacionados": [
+      "operatoria-internacional",
+      "cuentas-offshore",
+      "acciones-argentinas",
+      "opciones"
+    ],
+    "senales": [
+      "Pesos sin invertir con preocupación por el dólar",
+      "Pregunta por acciones de EE.UU."
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "crecimiento",
+      "internacional",
+      "cobertura_devaluacion"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "cedears"
+    ],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "CEDEARs",
+  "observaciones": [
+    "Sumar que Neix es market maker de CEDEARs en ByMA.",
+    "Dice 'para personas físicas no tributan Ganancias': en la matriz, la venta está exenta pero los dividendos tributan en escala progresiva. Precisar."
+  ],
+  "riesgoNivel": 4,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

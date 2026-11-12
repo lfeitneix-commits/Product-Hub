@@ -1,0 +1,121 @@
+{
+  "categoria": "Cobertura",
+  "cliente": {
+    "aTener": [
+      "Requiere integrar márgenes de garantía que se ajustan a diario.",
+      "Si el dólar baja, la cobertura compensa en sentido contrario: el objetivo es fijar el precio."
+    ],
+    "bajada": "Cubrí a tu empresa o tu cartera de una devaluación con futuros de dólar en A3, al plazo que necesitás.",
+    "beneficios": [
+      [
+        "Previsibilidad",
+        "Sabés hoy cuánto te va a costar o rendir tu próximo flujo en dólares."
+      ],
+      [
+        "Sin mover dólares",
+        "La cobertura se liquida en pesos por diferencias."
+      ],
+      [
+        "Ejecución experta",
+        "Somos operadores frecuentes en futuros de dólar en A3."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos el monto y el plazo que querés cubrir.",
+      "Tomamos la posición en A3 integrando la garantía.",
+      "Al vencimiento se compensa la diferencia en pesos contra el tipo de cambio de referencia."
+    ],
+    "enNeix": "Nuestra Mesa es proveedora de liquidez en futuros de dólar en A3, con tecnología propia.",
+    "ficha": {
+      "liquidez": "Diaria",
+      "mercado": "A3 Mercados",
+      "minimo": "Contratos estandarizados",
+      "moneda": "Pesos (liquidación por diferencias)",
+      "plazo": "Mensual, hasta varios meses",
+      "riesgo": "Medio: requiere márgenes de garantía"
+    },
+    "paraQuien": "Importadores, exportadores, empresas con deudas o costos en dólares, y carteras en pesos que quieren cubrirse de una devaluación.",
+    "queEs": "Un futuro de dólar es un contrato que fija hoy el precio al que vas a comprar o vender dólares en una fecha futura. Si sos importador y tenés que pagar en tres meses, te asegura el tipo de cambio de ese pago. Si exportás, protege el valor de tus cobros. Se liquida por diferencias en pesos, sin necesidad de mover los dólares.",
+    "titular": "Fijá hoy el tipo de cambio de tus próximos pagos o cobros"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [
+    "opc_fut"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Los futuros son para especular.",
+        "Usados contra un flujo real hacen lo contrario: te sacan el riesgo de tipo de cambio."
+      ]
+    ],
+    "operativa": [
+      "Cuenta habilitada para derivados en A3.",
+      "Integración y seguimiento diario de márgenes."
+    ],
+    "perfiles": [
+      "Importadores y exportadores",
+      "Empresas con deuda en dólares",
+      "Carteras en pesos que buscan cobertura"
+    ],
+    "pitch": "Si pagás o cobrás en dólares dentro de unos meses, te fijamos hoy el tipo de cambio. Somos operadores frecuentes de futuros de dólar en A3.",
+    "preguntas": [
+      "¿Qué flujos en dólares tenés en los próximos meses?",
+      "¿Hoy cómo te cubrís del tipo de cambio?"
+    ],
+    "relacionados": [
+      "bonos-cer-dl",
+      "cable-importadores",
+      "pricing-fx",
+      "futuros-agro",
+      "sinteticos"
+    ],
+    "senales": [
+      "Tiene pagos al exterior programados",
+      "Le preocupa el tipo de cambio de su próximo cobro",
+      "Tiene pesos y teme una devaluación"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_devaluacion",
+      "cobertura_precios"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "futuros"
+    ],
+    "tipos": [
+      "pyme",
+      "grande",
+      "persona"
+    ]
+  },
+  "nombre": "Futuros de dólar (ROFEX)",
+  "observaciones": [
+    "Ficha nueva sin one pager: validar con la Mesa contratos, márgenes y montos mínimos.",
+    "Destacar que Neix es Operador Frecuente en futuros de dólar en A3 desde octubre 2026."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

@@ -1,0 +1,124 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "El riesgo depende de la solvencia de cada empresa.",
+      "Algunas ON requieren montos mínimos."
+    ],
+    "bajada": "Prestale a compañías argentinas a través del mercado y cobrá intereses periódicos en pesos o en dólares.",
+    "beneficios": [
+      [
+        "Renta previsible",
+        "Sabés desde el inicio cuánto y cuándo cobrás."
+      ],
+      [
+        "Riesgo corporativo",
+        "Diversificás respecto de los bonos del Estado."
+      ],
+      [
+        "Exentas para persona humana",
+        "Intereses y venta exentos de Ganancias y Bienes Personales (persona humana)."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos emisores, moneda y plazo según tu perfil.",
+      "Comprás en la colocación o en el mercado secundario.",
+      "Cobrás los cupones en tu cuenta y el capital al vencimiento."
+    ],
+    "enNeix": "Analizamos cada emisión y armamos una curva de ON a tu medida, combinando emisores y vencimientos.",
+    "ficha": {
+      "liquidez": "Diaria en secundario",
+      "mercado": "ByMA y A3",
+      "minimo": "Algunas tienen mínimos de operación",
+      "moneda": "Pesos o dólares",
+      "plazo": "De 6 meses a 10 años",
+      "riesgo": "Moderado: depende del emisor"
+    },
+    "paraQuien": "Inversores conservadores o moderados que priorizan un flujo de renta previsible y diversificar respecto del riesgo soberano.",
+    "queEs": "Las obligaciones negociables (ON) son bonos que emiten las empresas para financiar sus actividades. Al comprarlas, le prestás a la compañía y cobrás intereses y capital según un cronograma fijo. Muchas pagan en dólares y son de empresas con muy buena calidad crediticia.",
+    "titular": "Renta en dólares con el respaldo de las empresas líderes"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 11 · ON's",
+  "impuestos": [
+    "on_usd",
+    "on_pesos"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Prefiero el plazo fijo en dólares.",
+        "Una ON de primera línea paga más, es exenta para persona humana y se puede vender cualquier día."
+      ]
+    ],
+    "operativa": [
+      "Compra en ByMA o A3 por valor nominal.",
+      "Suscripción en colocaciones primarias."
+    ],
+    "perfiles": [
+      "Conservadores y moderados",
+      "Clientes que buscan renta en USD",
+      "Jubilados o rentistas"
+    ],
+    "pitch": "Renta en dólares de empresas como YPF, Pampa o Vista, exenta de Ganancias y Bienes Personales para persona humana.",
+    "preguntas": [
+      "¿Buscás que la cartera te pague una renta periódica?",
+      "¿En qué moneda gastás?"
+    ],
+    "relacionados": [
+      "bonos-soberanos",
+      "fci",
+      "fideicomisos",
+      "t-bills",
+      "cauciones"
+    ],
+    "senales": [
+      "Dólares en cuenta o en el colchón sin invertir",
+      "Busca renta mensual o trimestral",
+      "Cartera concentrada en soberanos"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "on"
+    ],
+    "tipos": [
+      "persona",
+      "fa",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "ONs (inversión)",
+  "observaciones": [
+    "'Acceso a financiamiento para empresas' es un beneficio del emisor, no del inversor. Separado.",
+    "Sumar ejemplos de ON en cartera de la Mesa (emisor, TIR, vencimiento) con fecha."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

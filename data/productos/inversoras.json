@@ -1,0 +1,108 @@
+{
+  "categoria": "Planificación patrimonial",
+  "cliente": {
+    "aTener": [
+      "Los objetivos de rendimiento son estimados y no están garantizados. Toda inversión implica riesgos."
+    ],
+    "bajada": "El programa de wealth management de Neix para mujeres que deciden su patrimonio, con una asesora o asesor senior dedicado.",
+    "beneficios": [
+      [
+        "Asesor senior dedicado",
+        "Una persona que conoce tu historia y tus objetivos."
+      ],
+      [
+        "Tres carteras",
+        "Conservadora (4-5% objetivo anual en USD), moderada (6%) y agresiva (8%). Objetivos estimados, no garantizados."
+      ],
+      [
+        "Mirada integral",
+        "Inversiones, planificación familiar y eficiencia impositiva."
+      ]
+    ],
+    "comoFunciona": [
+      "Agendás tu diagnóstico con tu asesora o asesor.",
+      "Diseñamos juntos la estrategia según tu etapa.",
+      "Elegís cómo empezar: tu cuenta de inversión (local o internacional) o una estructura societaria.",
+      "Revisamos el plan periódicamente."
+    ],
+    "enNeix": "Diseñamos con vos una estrategia que evoluciona con tu vida.",
+    "ficha": {
+      "liquidez": "Según la cartera",
+      "mercado": "Local e internacional (custodia Pershing)",
+      "minimo": "Local sin mínimo; internacional desde USD 100.000",
+      "moneda": "Pesos y dólares",
+      "plazo": "Largo plazo",
+      "riesgo": "Según la cartera elegida"
+    },
+    "paraQuien": "Mujeres que toman las decisiones sobre su patrimonio y quieren una estrategia propia, con acompañamiento cercano.",
+    "queEs": "Inversoras es un plan integral que ordena tu patrimonio, tu familia y tu legado. Parte de un diagnóstico de tus activos y se arma según tu momento: construir, ordenar, transformar (un divorcio, una viudez, una herencia o la venta de una empresa) o transferir.",
+    "titular": "Un plan para tu patrimonio, pensado para cada etapa"
+  },
+  "estado": "a_validar",
+  "fuente": "Deck Inversoras (presentación Canva)",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Diagnóstico con asesora/asesor asignado.",
+      "Apertura de cuenta local o internacional."
+    ],
+    "perfiles": [
+      "Mujeres HNW",
+      "Viudas, divorciadas o herederas que quedan al frente de las decisiones",
+      "Empresarias"
+    ],
+    "pitch": "Un programa para mujeres que deciden su patrimonio: diagnóstico, plan por etapa y un asesor senior al lado.",
+    "preguntas": [
+      "¿En qué momento patrimonial estás hoy?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "estructuras-societarias",
+      "operatoria-internacional",
+      "fci"
+    ],
+    "senales": [
+      "Evento de transformación: divorcio, viudez, herencia, venta de empresa",
+      "Clienta que delega hoy en un tercero las decisiones"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "herencia",
+      "venta_empresa"
+    ],
+    "horizonte": [
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "sucesion",
+      "preservar_usd",
+      "crecimiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona"
+    ]
+  },
+  "nombre": "Inversoras",
+  "observaciones": [
+    "Es un programa, no un instrumento: la ficha funciona como puerta de entrada a otros productos.",
+    "Objetivos de cartera (4-5%, 6%, 8% en USD) son estimados: requieren fecha y disclaimer en cada uso."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

@@ -1,0 +1,109 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "La liquidez local de estos bonos es baja: pensalos para mantener.",
+      "El riesgo depende de cada emisor."
+    ],
+    "bajada": "La Mesa compra afuera ON y bonos provinciales con poca liquidez local y te los vende acá, sin que necesites una cuenta en el exterior.",
+    "beneficios": [
+      [
+        "Instrumentos difíciles de conseguir",
+        "Accedés a bonos que casi no operan acá."
+      ],
+      [
+        "Sin cuenta afuera",
+        "Todo se liquida en tu cuenta local."
+      ],
+      [
+        "Selección de la Mesa",
+        "Solo te proponemos bonos que hoy rinden bien."
+      ]
+    ],
+    "comoFunciona": [
+      "La Mesa selecciona bonos con buen rendimiento y poca liquidez local.",
+      "Tu asesor te propone el instrumento.",
+      "La Mesa lo compra afuera y te lo vende en tu cuenta local."
+    ],
+    "enNeix": "Usamos nuestras cuentas internacionales para acercarte instrumentos que de otra forma no tendrías.",
+    "ficha": {
+      "liquidez": "Acotada en el mercado local",
+      "mercado": "Exterior y ByMA",
+      "minimo": "A confirmar con la Mesa",
+      "moneda": "Dólares",
+      "plazo": "Según el bono",
+      "riesgo": "Moderado: depende del emisor"
+    },
+    "paraQuien": "Inversores que buscan renta en dólares con buenos rendimientos y no tienen cuenta en el exterior.",
+    "queEs": "Algunas obligaciones negociables y bonos provinciales operan muy poco en el mercado local, aunque tengan buenos rendimientos. La Mesa los identifica, los compra en el exterior a través de sus cuentas internacionales y te los vende localmente. Así accedés a esos instrumentos desde tu cuenta en Neix.",
+    "titular": "Bonos que rinden bien y casi no se consiguen en el mercado local"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [
+    "on_usd",
+    "tp_usd"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Compra en el exterior vía Pershing, IBKR o StoneX.",
+      "Venta local al cliente."
+    ],
+    "perfiles": [
+      "Clientes de renta fija que buscan más TIR",
+      "Clientes sin cuenta en el exterior"
+    ],
+    "pitch": "Hay ON y bonos provinciales que rinden muy bien y no se consiguen acá. La Mesa los compra afuera y te los vende local, sin que tengas cuenta en el exterior.",
+    "preguntas": [
+      "¿Te sirve mantener el bono hasta el vencimiento?"
+    ],
+    "relacionados": [
+      "obligaciones-negociables",
+      "bonos-soberanos",
+      "trade-ideas",
+      "swaps"
+    ],
+    "senales": [
+      "Pide más rendimiento en dólares",
+      "Pregunta por un bono que no consigue"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "Acceso a ON y bonos provinciales poco líquidos",
+  "observaciones": [
+    "Validar con la Mesa: el mínimo de USD 100.000 aplica a la operación afuera de la Mesa o al cliente.",
+    "Cuentas que usa la Mesa afuera: Pershing, IBKR, StoneX."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

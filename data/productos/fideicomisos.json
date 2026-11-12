@@ -1,0 +1,115 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "La liquidez en el mercado secundario puede ser limitada.",
+      "El rendimiento de los certificados de participación no está asegurado."
+    ],
+    "bajada": "Un fideicomiso financiero te permite invertir en la deuda de una empresa respaldada por activos o flujos separados de su balance.",
+    "beneficios": [
+      [
+        "Respaldo en activos",
+        "Los pagos se apoyan en un patrimonio separado de la empresa."
+      ],
+      [
+        "Prioridad de cobro",
+        "Las clases senior (A) cobran primero; las siguientes asumen más riesgo a cambio de más rendimiento."
+      ],
+      [
+        "Diversificación",
+        "Exposición a sectores y flujos que no están en la renta fija tradicional."
+      ]
+    ],
+    "comoFunciona": [
+      "Analizamos la estructura, el activo subyacente y la clase.",
+      "Suscribís en la colocación o comprás en el mercado secundario.",
+      "Cobrás los pagos según el cronograma y la prioridad de tu clase."
+    ],
+    "enNeix": "Analizamos cada emisión en detalle antes de recomendarla y te decimos qué clase encaja con tu perfil.",
+    "ficha": {
+      "liquidez": "Mercado secundario, puede ser acotada",
+      "mercado": "ByMA / A3",
+      "minimo": "Según la emisión",
+      "moneda": "Pesos o dólares",
+      "plazo": "Según la serie",
+      "riesgo": "Bajo a medio, según clase y activo"
+    },
+    "paraQuien": "Inversores que buscan rendimientos por encima de la renta fija tradicional y entienden que el riesgo depende de la calidad de los activos que respaldan el fideicomiso.",
+    "queEs": "Una empresa (el fiduciante) separa activos o flujos futuros, por ejemplo una cartera de créditos o cobranzas, y los pone en un patrimonio aparte. Sobre esa base se emiten títulos que compran los inversores. Si invertís en un título de deuda, cobrás intereses y amortizaciones. Si invertís en un certificado de participación, cobrás según los resultados del fideicomiso.",
+    "titular": "Invertí en flujos concretos, con un patrimonio que los respalda"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 5 · Fideicomisos financieros",
+  "impuestos": [
+    "ff_deuda_ars",
+    "ff_deuda_usd",
+    "ff_cp_ars"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "No conozco al fiduciante.",
+        "Por eso miramos el activo subyacente, la estructura y la clase, no solo el nombre. Te compartimos el análisis."
+      ]
+    ],
+    "operativa": [
+      "Suscripción en colocación primaria o compra en secundario desde la cuenta comitente."
+    ],
+    "perfiles": [
+      "Inversores moderados que buscan tasa con respaldo",
+      "Tesorerías con horizonte de mediano plazo"
+    ],
+    "pitch": "Una forma de cobrar más tasa que un bono tradicional, con un respaldo concreto detrás. La clave es elegir bien la clase.",
+    "preguntas": [
+      "¿Qué liquidez necesitás sobre esta parte de la cartera?"
+    ],
+    "relacionados": [
+      "obligaciones-negociables",
+      "bonos-soberanos",
+      "fci"
+    ],
+    "senales": [
+      "Busca más rendimiento que ON o bonos",
+      "Pregunta por colocaciones primarias"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "ff"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande",
+      "fa"
+    ]
+  },
+  "nombre": "Fideicomisos financieros",
+  "observaciones": [
+    "Riesgo 'Bajo' choca con 'invertir a una tasa mayor a la del mercado'. Revisar: el riesgo depende de la clase y del activo subyacente.",
+    "El one pager está escrito para el inversor pero figura en Banca Corporativa. Definir si hay una versión para empresas que quieren financiarse con FF."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

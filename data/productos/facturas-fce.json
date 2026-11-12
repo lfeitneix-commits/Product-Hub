@@ -1,0 +1,125 @@
+{
+  "categoria": "Financiamiento",
+  "cliente": {
+    "aTener": [
+      "Solo aplica a facturas aceptadas por el deudor.",
+      "El costo depende de la calidad crediticia de tu cliente y del plazo."
+    ],
+    "bajada": "Si le vendés a una empresa grande, tus facturas de crédito electrónicas aceptadas se pueden negociar en el mercado y convertirse en liquidez.",
+    "beneficios": [
+      [
+        "Te financiás con el crédito de tu cliente",
+        "La tasa refleja el riesgo de la empresa grande que paga, sin deuda contingente para vos."
+      ],
+      [
+        "Sin endeudamiento bancario",
+        "Anticipás ingresos sin sumar pasivos tradicionales a tu balance."
+      ],
+      [
+        "Todo en una plataforma",
+        "Seguimiento de vencimientos, notificaciones y trazabilidad de cada factura."
+      ]
+    ],
+    "comoFunciona": [
+      "Te registrás en la plataforma de factoring Neix-MAV y delegás el web service en ARCA.",
+      "Ves en un solo lugar todas tus facturas aceptadas y disponibles para negociar.",
+      "Elegís cuáles negociar y las ofrecemos en el mercado.",
+      "Recibís los fondos. Al vencimiento, tu cliente paga la factura y la operación se cierra."
+    ],
+    "enNeix": "Desarrollamos nuestra propia plataforma de factoring de FCE con el MAV, con dominio personalizado e integración por API para empresas grandes.",
+    "ficha": {
+      "liquidez": "Fondos al concertar",
+      "mercado": "MAV / A3 (a confirmar)",
+      "minimo": "A consultar",
+      "moneda": "Pesos, dólar linked o dólares",
+      "plazo": "Desde 7 días hábiles aprox.",
+      "riesgo": "Medio: depende de la empresa que paga"
+    },
+    "paraQuien": "Pymes proveedoras de grandes empresas que quieren adelantar cobros sin tomar deuda bancaria.",
+    "queEs": "Cuando una pyme le factura a una empresa grande, esa factura de crédito electrónica (FCE), una vez aceptada, se transforma en un título ejecutivo que se puede negociar en el mercado. Vos la vendés hoy por un monto algo menor, y el inversor cobra el total al vencimiento. Lo que definís es la tasa implícita.",
+    "titular": "Cobrá hoy lo que tu cliente te paga a 90 días"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 3 · Descuento de Facturas Electrónicas + Capacitación financiamiento (plataforma Neix-MAV)",
+  "impuestos": [
+    "cpd_pagare_ars"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Factoring bancario",
+        "La tasa la define la oferta de inversores y no es endeudamiento tradicional."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Mi cliente no va a querer.",
+        "La FCE es un régimen obligatorio para grandes empresas y la aceptación es parte del proceso habitual. Tu cliente no tiene que hacer nada distinto."
+      ]
+    ],
+    "operativa": [
+      "Registro en la plataforma Neix-MAV.",
+      "Delegación del web service en ARCA.",
+      "Configuración de la cuenta en la plataforma FCE."
+    ],
+    "perfiles": [
+      "Pymes proveedoras de grandes empresas",
+      "Empresas grandes que quieren ordenar el pago a proveedores (lado deudor)",
+      "Back offices y productores con muchas FCE"
+    ],
+    "pitch": "Si le vendés a YPF, a una cadena de supermercados o a cualquier empresa grande, podés cobrar esas facturas hoy, a la tasa de tu cliente y no a la tuya.",
+    "preguntas": [
+      "¿Quiénes son tus principales clientes y a cuántos días te pagan?",
+      "¿Emitís facturas de crédito electrónicas?"
+    ],
+    "relacionados": [
+      "cheques",
+      "avales-sgr",
+      "pagares",
+      "cauciones"
+    ],
+    "senales": [
+      "Factura a empresas grandes con plazos largos de pago",
+      "Usa factoring bancario",
+      "Menciona descalce entre cobros y pagos"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "vende_a_grandes",
+      "necesita_financiamiento"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme"
+    ]
+  },
+  "nombre": "Descuento de facturas electrónicas (FCE)",
+  "observaciones": [
+    "El texto dice que se negocian en el MAV y el campo 'Mercado' dice A3. Confirmar.",
+    "'Destinado a: cliente sofisticado' no describe a la pyme que descuenta. Reescrito.",
+    "El one pager remite a 'el siguiente instructivo' que no está incluido. Sumar link o video."
+  ],
+  "riesgoNivel": 3,
+  "simulador": "descuento",
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

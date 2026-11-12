@@ -1,0 +1,121 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "El rendimiento depende de la tasa de interés de EE.UU. al momento de comprar.",
+      "Para persona humana, la renta tributa en escala progresiva."
+    ],
+    "bajada": "Letras del Tesoro de Estados Unidos, de 1 a 12 meses, para preservar capital en dólares con un rendimiento previsible.",
+    "beneficios": [
+      [
+        "Seguridad",
+        "Respaldo del Tesoro de Estados Unidos."
+      ],
+      [
+        "Rendimiento en dólares",
+        "Previsible desde el día de la compra."
+      ],
+      [
+        "Plazos cortos",
+        "Para tener los fondos disponibles cuando los necesitás."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos el plazo según cuándo vas a necesitar los fondos.",
+      "Comprás a descuento desde tu cuenta internacional o con custodia global.",
+      "Al vencimiento cobrás el valor nominal."
+    ],
+    "enNeix": "Te damos acceso a T-Bills y te orientamos sobre la estructura más eficiente según tu caso.",
+    "ficha": {
+      "liquidez": "Alta, T+1",
+      "mercado": "Mercados internacionales",
+      "minimo": "A consultar",
+      "moneda": "Dólares",
+      "plazo": "De 1 a 12 meses",
+      "riesgo": "Muy bajo"
+    },
+    "paraQuien": "Inversores conservadores y tesorerías que quieren preservar capital en dólares con riesgo mínimo.",
+    "queEs": "Los T-Bills son letras de corto plazo que emite el gobierno de Estados Unidos. No pagan cupón: se compran a descuento y al vencimiento cobrás el valor nominal completo. La diferencia es tu rendimiento. Son considerados uno de los activos más seguros del mundo.",
+    "titular": "La forma más segura de que tus dólares rindan"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager · T-Bills",
+  "impuestos": [
+    "tp_ext"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Plazo fijo en dólares",
+        "Riesgo del Tesoro de EE.UU. en lugar de riesgo bancario local."
+      ]
+    ],
+    "objeciones": [],
+    "operativa": [
+      "Cuenta internacional o broker local con custodia global.",
+      "Liquidación T+1."
+    ],
+    "perfiles": [
+      "Conservadores",
+      "Clientes que acaban de vender algo y esperan otra oportunidad",
+      "Tesorerías en USD"
+    ],
+    "pitch": "El 'plazo fijo' en dólares del mundo: riesgo Estados Unidos, plazo corto y rendimiento conocido.",
+    "preguntas": [
+      "¿Cuándo vas a necesitar estos dólares?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "operatoria-internacional",
+      "obligaciones-negociables",
+      "notas-estructuradas"
+    ],
+    "senales": [
+      "Dólares afuera sin invertir",
+      "Busca riesgo mínimo"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez",
+      "venta_empresa"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "preservar_usd",
+      "internacional",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "tbills"
+    ],
+    "tipos": [
+      "persona",
+      "fa",
+      "grande"
+    ]
+  },
+  "nombre": "T-Bills (Letras del Tesoro de EE.UU.)",
+  "observaciones": [
+    "Rendimiento '4% anual' cambia con la tasa de la Fed: mostrarlo con fecha y fuente o quitarlo de la vista cliente.",
+    "'Orientación fiscal según la estructura': revisar el alcance de esta promesa."
+  ],
+  "riesgoNivel": 1,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

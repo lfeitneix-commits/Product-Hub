@@ -1,0 +1,123 @@
+{
+  "categoria": "Financiamiento",
+  "cliente": {
+    "aTener": [
+      "Necesitás certificado pyme vigente.",
+      "La calificación tiene un monto máximo, que conviene usar de forma estratégica."
+    ],
+    "bajada": "El aval de una Sociedad de Garantía Recíproca mejora tu perfil de crédito y te da acceso a mejores tasas y plazos.",
+    "beneficios": [
+      [
+        "Mejor tasa",
+        "El aval reduce el riesgo percibido y baja el costo de financiarte."
+      ],
+      [
+        "Más plazo",
+        "Accedés a plazos que sin aval no serían posibles."
+      ],
+      [
+        "Usos múltiples",
+        "E-cheq propios, pagarés en pesos o dólares, descuento de e-cheq de terceros y también productos bancarios."
+      ]
+    ],
+    "comoFunciona": [
+      "Abrís cuenta en la SGR elegida con la documentación requerida.",
+      "Solicitás la calificación de tu empresa en forma online.",
+      "Con la calificación aprobada, emitís instrumentos avalados hasta el monto asignado."
+    ],
+    "enNeix": "Actuamos como nexo entre tu empresa y las SGR: te conectamos con las más adecuadas, te ayudamos a preparar la documentación y maximizamos el uso de tu calificación.",
+    "ficha": {
+      "liquidez": "No aplica",
+      "mercado": "Mercado de capitales y bancos",
+      "minimo": "Requiere certificado pyme",
+      "moneda": "Pesos o dólares",
+      "plazo": "Según el instrumento avalado",
+      "riesgo": "Bajo para el inversor: lo asume la SGR"
+    },
+    "paraQuien": "Empresas registradas como pymes que quieren acceder al mercado de capitales o mejorar las condiciones de su financiamiento bancario.",
+    "queEs": "Las SGR son entidades que avalan a las pymes: garantizan que el instrumento que emitís se va a pagar. Con ese respaldo, el inversor asume el riesgo de la SGR y no el de tu empresa, y por eso conseguís tasas y plazos que de otra forma serían difíciles. El costo del aval ronda el 4% TNA.",
+    "titular": "Financiate con las condiciones de una empresa grande"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 6 · Avales con Sociedades de Garantía Recíproca (incluye checklist de documentación)",
+  "id": "avales-sgr",
+  "impuestos": [],
+  "interno": {
+    "competencia": [
+      [
+        "Garantías bancarias",
+        "Neix arma la carpeta y maximiza el uso de la calificación en varios instrumentos."
+      ]
+    ],
+    "objeciones": [
+      [
+        "El aval encarece la operación.",
+        "Sumá el costo del aval a la tasa avalada y comparalo con la tasa sin aval. En general el total es menor, y además conseguís más plazo."
+      ],
+      [
+        "El trámite es largo.",
+        "Te damos el checklist completo y armamos la carpeta con vos."
+      ]
+    ],
+    "operativa": [
+      "Checklist PJ: último balance, estatuto, ventas posteriores al balance, deuda vigente, DDJJ de Bienes Personales de socios, participación accionaria, DNI de socios, certificado pyme, F.1272, F.931, mail en EPYME.",
+      "Checklist PF: DDJJ Bienes Personales y Ganancias, manifestación de bienes, ventas 12 meses, deuda vigente, DNI titular y cónyuge o fiador, certificado pyme, F.1272, mail en EPYME.",
+      "Documentación extra según actividad: SISA (agro), SIGLEA (tambo), obras en curso (construcción), acta de vacunación (ganadería)."
+    ],
+    "perfiles": [
+      "Pymes con certificado vigente",
+      "Cadenas de valor de grandes empresas"
+    ],
+    "pitch": "El aval de SGR hace que tu empresa se financie con el riesgo de la SGR y no con el tuyo. Nosotros hacemos todo el proceso de alta.",
+    "preguntas": [
+      "¿Tenés certificado pyme vigente?",
+      "¿Ya estás calificado en alguna SGR? ¿Por qué monto?"
+    ],
+    "relacionados": [
+      "cheques",
+      "pagares",
+      "facturas-fce"
+    ],
+    "senales": [
+      "Pyme que se financia caro o con plazos cortos",
+      "No tiene calificación en ninguna SGR"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "necesita_financiamiento"
+    ],
+    "horizonte": [
+      "corto",
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme"
+    ]
+  },
+  "nombre": "Avales con SGR",
+  "observaciones": [
+    "El costo de la SGR (aprox. 4% TNA) cambia: definir quién lo actualiza.",
+    "Muy buen anexo de documentación: llevarlo a la vista interna como checklist."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

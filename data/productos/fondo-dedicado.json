@@ -1,0 +1,126 @@
+{
+  "categoria": "Liquidez y tesorería",
+  "cliente": {
+    "aTener": [
+      "La alícuota efectiva es una estimación sujeta a la inflación del período y a la situación de cada compañía.",
+      "Las cuotapartes de FCI no son depósitos ni tienen garantía de la gerente o la depositaria."
+    ],
+    "bajada": "Un FCI exclusivo para tu empresa o grupo económico, con la estrategia, la moneda y la liquidez que definen tus compromisos.",
+    "beneficios": [
+      [
+        "Eficiencia impositiva",
+        "Los cupones se capitalizan en la cuotaparte y tributan al rescate. Diferir el impuesto un ejercicio sitúa la alícuota efectiva, en términos reales, en torno al 25% (estimación)."
+      ],
+      [
+        "Liquidez sin desinvertir",
+        "Las cuotapartes se pueden caucionar para financiar capital de trabajo."
+      ],
+      [
+        "Registración simple",
+        "Una sola cuotaparte refleja toda la cartera en los registros contables."
+      ],
+      [
+        "Mirada integral",
+        "El mismo criterio puede extenderse a los activos de la empresa en el exterior, con reporte consolidado."
+      ]
+    ],
+    "comoFunciona": [
+      "Analizamos tus flujos, compromisos y objetivos de tesorería.",
+      "Definimos benchmark, moneda, duration y liquidez del fondo.",
+      "Se constituye el fondo y la estrategia se revisa a medida que cambia el contexto.",
+      "Recibís reportes periódicos y monitoreo permanente."
+    ],
+    "enNeix": "Diseñamos la estrategia junto a Vinci Compass y acompañamos a tu tesorería en cada revisión.",
+    "ficha": {
+      "liquidez": "Definida a medida; cuotapartes caucionables",
+      "mercado": "FCI regulado por CNV",
+      "minimo": "Escala sugerida desde ARS 10.000 M o USD 3 M",
+      "moneda": "Pesos o dólares",
+      "plazo": "A medida",
+      "riesgo": "Según la estrategia definida"
+    },
+    "paraQuien": "Empresas con excedentes de liquidez relevantes, grupos económicos con varias sociedades y tesorerías que buscan gestión institucional sin armar una estructura propia.",
+    "queEs": "Es un fondo común de inversión constituido en exclusiva para tu compañía. A diferencia de un fondo abierto a cualquier inversor, su política de inversión, su liquidez y su administración responden solo a tu tesorería. Vinci Compass es la Sociedad Gerente y Neix diseña la estrategia.",
+    "titular": "Un fondo diseñado solo para la tesorería de tu compañía"
+  },
+  "estado": "a_validar",
+  "fuente": "Fondo Dedicado · One Page cliente (nuevo formato) + one pager anterior",
+  "impuestos": [
+    "fci_tp_ars",
+    "fci_tp_usd"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Ya tenemos FCI abiertos.",
+        "El dedicado te da la estrategia a medida, el diferimiento impositivo y la registración simple que un fondo abierto no puede darte."
+      ]
+    ],
+    "operativa": [
+      "Estructura: Sociedad Gerente Vinci Compass; depositaria regulada por CNV; distribución y estrategia, Neix."
+    ],
+    "perfiles": [
+      "Empresas con caja relevante y estable",
+      "Grupos económicos con varias sociedades",
+      "Banca Privada: carteras personales grandes (adaptación de menor escala)"
+    ],
+    "pitch": "Lo que una gran empresa tendría con su propio equipo de tesorería, sin armar la estructura: un fondo solo para ella, con diferimiento impositivo y liquidez caucionable.",
+    "preguntas": [
+      "¿Qué parte de la caja es estructural y qué parte operativa?",
+      "¿Cómo tributan hoy los intereses de tu cartera?"
+    ],
+    "relacionados": [
+      "cauciones",
+      "fci",
+      "echeq-tesoreria",
+      "cuentas-offshore",
+      "fal"
+    ],
+    "senales": [
+      "Excedentes superiores a ARS 10.000 M o USD 3 M",
+      "Tributa 35% sobre intereses de bonos y ON en directo",
+      "Tiene activos en el exterior sin reporte consolidado"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": 3000000,
+    "objetivos": [
+      "tesoreria",
+      "eficiencia_impositiva",
+      "renta"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "grande",
+      "pyme",
+      "persona"
+    ]
+  },
+  "nombre": "Fondo de Inversión Dedicado",
+  "observaciones": [
+    "Hay dos versiones: la anterior dice 'monto mínimo a consultar'; la nueva sugiere desde ARS 10.000 M o USD 3 M. Se usa la nueva.",
+    "La eficiencia impositiva se basa en el dictamen de ARV Consultores Tributarios: mantener la aclaración legal."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa",
+    "Banca Privada"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

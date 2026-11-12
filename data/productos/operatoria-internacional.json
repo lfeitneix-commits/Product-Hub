@@ -1,0 +1,130 @@
+{
+  "categoria": "Internacional",
+  "cliente": {
+    "aTener": [
+      "Se opera con dólares cable.",
+      "El tratamiento impositivo depende del activo."
+    ],
+    "bajada": "Acciones, ETFs y T-Bills de los principales mercados, desde tu cuenta comitente en Neix y junto a tus inversiones locales.",
+    "beneficios": [
+      [
+        "Sin cuenta afuera",
+        "Accedés a Estados Unidos desde tu cuenta local, mientras abrís la tuya o si preferís no hacerlo."
+      ],
+      [
+        "T-Bills desde Argentina",
+        "Operás letras del Tesoro de EE.UU., algo que muchas cuentas locales no permiten."
+      ],
+      [
+        "Todo junto",
+        "Local y exterior en la misma cuenta, con una sola relación."
+      ]
+    ],
+    "comoFunciona": [
+      "Fondeás tu cuenta con dólares cable (transferencia o CCL).",
+      "Definimos con vos qué parte de tu cartera va al exterior.",
+      "Operás local y exterior desde la misma cuenta, con un solo reporte."
+    ],
+    "enNeix": "Te damos libertad real para operar el exterior desde tu cuenta local y te ayudamos a definir cómo fondearla.",
+    "ficha": {
+      "liquidez": "Según el activo",
+      "mercado": "Mercados de EE.UU. e internacionales",
+      "minimo": "Sin mínimo de apertura; FCI desde USD 1.000",
+      "moneda": "Dólares cable",
+      "plazo": "Según el activo",
+      "riesgo": "Según el activo"
+    },
+    "paraQuien": "Inversores que quieren exposición internacional y valoran la simpleza de operar local y exterior desde la misma cuenta.",
+    "queEs": "Desde tu cuenta en Neix podés invertir en activos del exterior, sobre todo renta variable de Estados Unidos: acciones, ETFs y letras del Tesoro (T-Bills). Es la alternativa para quien está abriendo su cuenta afuera, no llega al mínimo de una cuenta internacional o prefiere tener todo en un solo lugar. Las compras se hacen con dólares cable, que podés transferir desde el exterior o conseguir con una operación de contado con liquidación.",
+    "titular": "Invertí en Estados Unidos sin abrir una cuenta afuera"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 12 · Operatoria internacional + relevamiento Mesa (nov 2026)",
+  "impuestos": [
+    "tp_ext",
+    "fondos_ext"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Brokers del exterior",
+        "Acceso desde la cuenta local, con fondos desde USD 1.000 y sin capital mínimo de cuenta."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Prefiero esperar a tener mi cuenta afuera.",
+        "Podés empezar hoy desde la local y migrar después. No perdés tiempo de mercado."
+      ]
+    ],
+    "operativa": [
+      "Fondeo con dólares cable: transferencia del exterior o CCL.",
+      "Operación de acciones, ETFs y T-Bills desde la cuenta comitente local."
+    ],
+    "perfiles": [
+      "Clientes en proceso de apertura de cuenta afuera",
+      "Clientes con menos de USD 100.000 para el exterior",
+      "Clientes que prefieren no abrir cuenta afuera"
+    ],
+    "pitch": "Si todavía no tenés cuenta afuera, no te la abren o no querés abrirla, invertís en acciones, ETFs y T-Bills de EE.UU. desde tu comitente en Neix. Muchas ALyCs ni siquiera te dejan operar T-Bills.",
+    "preguntas": [
+      "¿Tenés o estás abriendo una cuenta en el exterior?",
+      "¿Cuánto querés destinar a activos internacionales?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "cedears",
+      "t-bills",
+      "pricing-fx",
+      "fondos-offshore",
+      "canje"
+    ],
+    "senales": [
+      "Pregunta por invertir afuera sin el mínimo de una cuenta internacional",
+      "Tiene CEDEARs y quiere el activo directo",
+      "La apertura de su cuenta afuera está demorada"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "corto",
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "internacional",
+      "preservar_usd",
+      "cobertura_devaluacion"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "internacional"
+    ],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "Inversiones en el exterior con cuenta local",
+  "observaciones": [
+    "Aclarar mínimos: el one pager dice 'sin capital mínimo' y FCI desde USD 1.000.",
+    "Diferencial a destacar: muchas ALyCs no permiten operar T-Bills desde la cuenta local. Validar cómo lo comunicamos."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Mercado de Capitales",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

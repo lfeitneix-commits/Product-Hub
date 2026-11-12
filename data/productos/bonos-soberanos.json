@@ -1,0 +1,116 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "El riesgo es soberano: una reestructuración puede cambiar las condiciones de pago.",
+      "Los bonos que se usan para operaciones de cambio pueden tener otros plazos de liquidación."
+    ],
+    "bajada": "Bonos del Estado nacional, provincias y municipios, con cupones periódicos y potencial de apreciación si mejora el riesgo país.",
+    "beneficios": [
+      [
+        "Renta y apreciación",
+        "Cupones periódicos más potencial de suba si baja el riesgo país."
+      ],
+      [
+        "Exentos para persona humana",
+        "Intereses y ventas exentos de Ganancias, y fuera de Bienes Personales."
+      ],
+      [
+        "Liquidez",
+        "Son los instrumentos más operados del mercado local."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos bonos según moneda, plazo y emisor.",
+      "Comprás en el mercado, en general en T+1.",
+      "Cobrás cupones y amortizaciones en tu cuenta."
+    ],
+    "enNeix": "Nuestro equipo de Estrategia analiza la curva todas las semanas y te recomienda dónde posicionarte.",
+    "ficha": {
+      "liquidez": "Diaria",
+      "mercado": "ByMA y A3",
+      "minimo": "Nominal mínimo accesible",
+      "moneda": "Pesos o dólares",
+      "plazo": "De 1 a 20 años",
+      "riesgo": "Moderado a alto, según emisor y duration"
+    },
+    "paraQuien": "Inversores con apetito por riesgo argentino que buscan rentabilidad en pesos o en dólares.",
+    "queEs": "Son títulos de deuda emitidos por el Estado nacional, provincial o municipal. Pagan intereses periódicos y devuelven el capital al vencimiento o en cuotas. Sus condiciones de pago se conocen desde la emisión. Además de la renta, su precio puede subir si mejora la percepción de riesgo del país.",
+    "titular": "Renta en dólares con la curva argentina"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager · Bonos soberanos",
+  "impuestos": [
+    "tp_usd",
+    "tp_pesos"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Argentina ya defaulteó.",
+        "Por eso dimensionamos la posición y la combinamos con riesgo corporativo e internacional."
+      ]
+    ],
+    "operativa": [
+      "Compra en ByMA o A3, T+1 en general."
+    ],
+    "perfiles": [
+      "Moderados",
+      "Clientes con visión positiva de Argentina"
+    ],
+    "pitch": "Renta en dólares exenta de Ganancias y Bienes Personales, con potencial de apreciación si sigue bajando el riesgo país.",
+    "preguntas": [
+      "¿Cuánto riesgo argentino querés tener en tu cartera?"
+    ],
+    "relacionados": [
+      "obligaciones-negociables",
+      "bonos-cer-dl",
+      "t-bills",
+      "cauciones"
+    ],
+    "senales": [
+      "Dólares sin invertir",
+      "Pregunta por el riesgo país"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta",
+      "crecimiento"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "soberanos"
+    ],
+    "tipos": [
+      "persona",
+      "fa",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Bonos soberanos, provinciales y municipales",
+  "observaciones": [
+    "'Rendimientos notablemente superiores a la renta fija internacional' es una afirmación que depende del momento: suavizar o fechar.",
+    "Sumar TIR de referencia con fecha y fuente (Mesa/Estrategia)."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

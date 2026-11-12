@@ -1,0 +1,82 @@
+{
+  "lista": [
+    {
+      "mail": "mlipovetzky@neix.com.ar",
+      "nombre": "Marcelo Lipovetzky",
+      "tel": ""
+    },
+    {
+      "mail": "bmerino@neix.com.ar",
+      "nombre": "Brenda Merino",
+      "tel": ""
+    },
+    {
+      "mail": "lbattaglia@neix.com.ar",
+      "nombre": "Lucila Battaglia",
+      "tel": ""
+    },
+    {
+      "mail": "jgonzalez@neix.com.ar",
+      "nombre": "Julian Gonzalez",
+      "tel": ""
+    },
+    {
+      "mail": "av@neix.com.ar",
+      "nombre": "Alvanny Viloria",
+      "tel": ""
+    },
+    {
+      "area": "Banca Corporativa",
+      "mail": "fl@neix.com.ar",
+      "nombre": "Facundo Linares",
+      "tel": ""
+    },
+    {
+      "area": "Banca Privada",
+      "mail": "nfurlani@neix.com.ar",
+      "nombre": "Nicanor Furlani",
+      "tel": ""
+    },
+    {
+      "mail": "tvodanovich@neix.com.ar",
+      "nombre": "Tomas Vodanovich",
+      "tel": ""
+    },
+    {
+      "mail": "lmalaccorto@neix.com.ar",
+      "nombre": "Lucas Malaccorto",
+      "tel": ""
+    },
+    {
+      "mail": "mdegrossi@neix.com.ar",
+      "nombre": "Martina Degrossi",
+      "tel": ""
+    },
+    {
+      "area": "Financial Advisors",
+      "mail": "ssicouly@neix.com.ar",
+      "nombre": "Soledad Sicouly",
+      "tel": ""
+    },
+    {
+      "mail": "fmigliano@neix.com.ar",
+      "nombre": "Franco Migliano",
+      "tel": ""
+    },
+    {
+      "mail": "mdepino@neix.com.ar",
+      "nombre": "Manuela Depino",
+      "tel": ""
+    },
+    {
+      "mail": "mc@neix.com.ar",
+      "nombre": "Manuela Conti",
+      "tel": ""
+    },
+    {
+      "mail": "vlopresti@neix.com.ar",
+      "nombre": "Valentina Lo Presti",
+      "tel": ""
+    }
+  ]
+}

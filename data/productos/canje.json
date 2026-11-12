@@ -1,0 +1,120 @@
+{
+  "categoria": "Comercio exterior y FX",
+  "cliente": {
+    "aTener": [
+      "El costo varía con la brecha entre el dólar MEP y el CCL.",
+      "Aplican las restricciones de la normativa cambiaria vigente."
+    ],
+    "bajada": "Convertí dólares MEP en dólares cable, o al revés, a través del mercado de capitales.",
+    "beneficios": [
+      [
+        "Fondeo de cuentas afuera",
+        "Llevás tus dólares a tu cuenta en el exterior por una vía legal y trazable."
+      ],
+      [
+        "Costo cotizado",
+        "La Mesa te informa el costo antes de concretar la operación."
+      ],
+      [
+        "Coordinado con tu cuenta",
+        "Lo integramos con la apertura y el fondeo de tu cuenta en el exterior."
+      ]
+    ],
+    "comoFunciona": [
+      "Nos indicás el monto y el sentido: de MEP a cable o de cable a MEP.",
+      "La Mesa te cotiza el canje antes de operar.",
+      "Se ejecuta la compraventa de títulos.",
+      "Los dólares se acreditan en la cuenta de destino."
+    ],
+    "enNeix": "La Mesa cotiza y ejecuta el canje, y lo coordinamos con la apertura y el fondeo de tu cuenta en el exterior.",
+    "ficha": {
+      "liquidez": "Según la liquidación de los títulos",
+      "mercado": "ByMA / A3",
+      "minimo": "A consultar",
+      "moneda": "Dólares MEP / cable",
+      "plazo": "Operación puntual",
+      "riesgo": "Bajo: riesgo de mercado durante la operación"
+    },
+    "paraQuien": "Personas físicas y jurídicas que necesitan fondear una cuenta en el exterior o repatriar dólares.",
+    "queEs": "El canje es la conversión entre dólares locales (MEP) y dólares en el exterior (cable o CCL) mediante la compraventa de títulos valores. Se usa para fondear una cuenta de inversión en el exterior, pagar compromisos afuera o traer dólares al país. Su costo es la diferencia entre ambos tipos de cambio al momento de operar.",
+    "titular": "Mové tus dólares entre Argentina y el exterior"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Banca Privada",
+  "impuestos": [],
+  "interno": {
+    "competencia": [
+      [
+        "Bancos y otras ALyCs",
+        "Cotización transparente y coordinación con la cuenta en el exterior."
+      ]
+    ],
+    "objeciones": [
+      [
+        "¿Cuánto me cuesta?",
+        "Depende de la brecha del día. La Mesa te cotiza antes de operar."
+      ]
+    ],
+    "operativa": [
+      "Coordinar con la Mesa por el canal de órdenes.",
+      "Verificar la normativa cambiaria vigente antes de operar."
+    ],
+    "perfiles": [
+      "Clientes que abren una cuenta en el exterior",
+      "Clientes con compromisos de pago afuera"
+    ],
+    "pitch": "Si querés fondear tu cuenta afuera, el canje lleva tus dólares MEP al exterior en una operación, con el costo cotizado antes de operar.",
+    "preguntas": [
+      "¿Tus dólares hoy están en Argentina o afuera?",
+      "¿Necesitás fondear una cuenta en el exterior?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "fondos-offshore",
+      "operatoria-internacional"
+    ],
+    "senales": [
+      "Abre cuenta en el exterior",
+      "Tiene dólares MEP y quiere invertir afuera"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "corto",
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "internacional",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Canje (MEP ↔ cable)",
+  "observaciones": [
+    "Producto sumado en el relevamiento de Banca Privada: falta one pager.",
+    "Validar con la Mesa la normativa vigente y el costo de referencia."
+  ],
+  "riesgoNivel": 1,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Banca Privada",
+    "Mercado de Capitales"
+  ],
+  "validador": "",
+  "vence": "2027-02-11"
+}

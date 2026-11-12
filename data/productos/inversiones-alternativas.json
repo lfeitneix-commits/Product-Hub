@@ -1,0 +1,99 @@
+{
+  "categoria": "Inversión a medida",
+  "cliente": {
+    "aTener": [
+      "Los rendimientos no están garantizados y la liquidez es baja.",
+      "Requieren horizonte largo."
+    ],
+    "bajada": "Private equity, real estate, infraestructura y otras estrategias que se mueven con lógica propia, para una parte de tu cartera de largo plazo.",
+    "beneficios": [
+      [
+        "Descorrelación",
+        "Se mueven con lógica propia frente a los activos financieros clásicos."
+      ],
+      [
+        "Potencial de retorno",
+        "Mayor, a cambio de plazo y menor liquidez."
+      ]
+    ],
+    "comoFunciona": [
+      "Seleccionamos oportunidades y hacemos el due diligence.",
+      "Analizamos con vos el riesgo y el encaje en tu cartera.",
+      "Invertís a través de plataformas, contratos privados o vehículos específicos."
+    ],
+    "enNeix": "Seleccionamos oportunidades y te damos un análisis de riesgo adaptado a tu perfil.",
+    "ficha": {
+      "liquidez": "Baja",
+      "mercado": "Plataformas y contratos privados",
+      "minimo": "Según la oportunidad",
+      "moneda": "Variable: pesos, dólares",
+      "plazo": "Mediano a largo",
+      "riesgo": "Alto"
+    },
+    "paraQuien": "Inversores sofisticados, con capital paciente y tolerancia a la falta de liquidez, que quieren diversificar más allá de los mercados tradicionales.",
+    "queEs": "Las inversiones alternativas son activos o estrategias distintos de los instrumentos tradicionales: capital privado, bienes raíces, fondos de cobertura, materias primas, infraestructura, entre otros. Su valor está en que suelen comportarse distinto que las acciones y los bonos.",
+    "titular": "Más allá de acciones y bonos"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 9 · Inversiones alternativas",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Due diligence por oportunidad.",
+      "Contratos privados o plataformas específicas."
+    ],
+    "perfiles": [
+      "Patrimonios grandes y diversificados",
+      "Family offices",
+      "Empresarios que vendieron su empresa"
+    ],
+    "pitch": "Para la parte de la cartera que no vas a tocar en años, hay activos que rinden con una lógica distinta a la del mercado.",
+    "preguntas": [
+      "¿Qué parte de tu patrimonio no necesitás en los próximos 5 años?"
+    ],
+    "relacionados": [
+      "notas-estructuradas",
+      "cuentas-offshore",
+      "estructuras-societarias"
+    ],
+    "senales": [
+      "Cartera ya diversificada en activos tradicionales",
+      "Pregunta por real estate o private equity"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "venta_empresa"
+    ],
+    "horizonte": [
+      "largo"
+    ],
+    "minimoUSD": 250000,
+    "objetivos": [
+      "crecimiento",
+      "internacional"
+    ],
+    "perfiles": [
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona"
+    ]
+  },
+  "nombre": "Inversiones alternativas",
+  "observaciones": [
+    "Menciona criptomonedas, arte y hedge funds sin decir cuáles ofrece Neix concretamente. Definir el menú real.",
+    "No tiene tratamiento impositivo completo."
+  ],
+  "riesgoNivel": 5,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

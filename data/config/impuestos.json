@@ -1,0 +1,1231 @@
+{
+  "columnas": [
+    "Persona",
+    "Ingreso",
+    "Ganancias",
+    "IVA",
+    "Regímenes de información",
+    "Bienes Personales",
+    "IIBB CABA"
+  ],
+  "fuente": "Deck Eficiencia Impositiva Neix (transcripto nov 2026)",
+  "tablas": {
+    "acciones": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "No computable",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Gravado al 7%",
+          "No gravado",
+          "N/A",
+          "No computable",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No computable",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Gravado al 7%",
+          "No gravado",
+          "N/A",
+          "No",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "Exento"
+        ]
+      ],
+      "nombre": "Acciones con oferta pública"
+    },
+    "caucion_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por interés",
+          "25%, 30% o 35%",
+          "Exenta",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por interés",
+          "Tasa progresiva",
+          "Exenta",
+          "SITER",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por interés",
+          "15,05%",
+          "Exenta",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Caución en pesos (colocadora)"
+    },
+    "caucion_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por interés",
+          "25%, 30% o 35%",
+          "Exenta",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por interés",
+          "Tasa progresiva",
+          "Exenta",
+          "SITER",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por interés",
+          "15,05%",
+          "Exenta",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Caución en dólares (colocadora)"
+    },
+    "cedears": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "No gravado",
+          "SITER",
+          "N/A",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Escala progresiva 5% a 35%",
+          "No gravado",
+          "N/A",
+          "Gravado",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "No gravado",
+          "SITER",
+          "Gravado",
+          "Gravado (opinable)"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Según legislación del país",
+          "No gravado",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado (opinable)"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Según legislación del país",
+          "No gravado",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado (opinable)"
+        ]
+      ],
+      "nombre": "CEDEARs"
+    },
+    "cpd_pagare_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta financiera",
+          "25%, 30% o 35%",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta financiera",
+          "Exento",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta financiera",
+          "Exento",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Gravado (RG 1603 para CPD)",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Cheques de pago diferido y pagarés en pesos"
+    },
+    "fci_abiertos": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "No computable",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Gravado al 7%",
+          "No gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Gravado al 7%",
+          "No gravado",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "FCI abiertos de acciones argentinas (75% o más de la cartera)"
+    },
+    "fci_cerr_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "Gravado, salvo FCI con más de 75% en títulos o depósitos exentos",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado, salvo FCI con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "FCI cerrados en pesos (cuotapartes de condominio)"
+    },
+    "fci_cerr_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "Gravado, salvo FCI con más de 75% en títulos o depósitos exentos",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado, salvo FCI con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "FCI cerrados en dólares (cuotapartes de condominio)"
+    },
+    "fci_tp_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "FCI de títulos públicos en pesos (75% o más de la cartera)"
+    },
+    "fci_tp_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "FCI de títulos públicos en dólares (75% o más de la cartera)"
+    },
+    "ff_cp_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Dividendos",
+          "No computable / transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Dividendos",
+          "Gravado al 7% y transparencia fiscal",
+          "No gravado",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Fideicomisos financieros con oferta pública en pesos (certificados de participación)"
+    },
+    "ff_deuda_ars": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por interés",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por interés",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por interés",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos de deuda de fideicomisos financieros en pesos"
+    },
+    "ff_deuda_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por interés",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por interés",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Gravado, salvo FF con más de 75% en títulos o depósitos exentos",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por interés",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos de deuda de fideicomisos financieros en moneda extranjera"
+    },
+    "fondos_ext": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "No gravado (opinable)"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "No gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Escala progresiva 5% a 35%",
+          "No gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: no gravado (opinable)"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Gravado 15%",
+          "No gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: no gravado (opinable)"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Según legislación del país",
+          "No gravado",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Según legislación del país",
+          "No gravado",
+          "N/A",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Fondos de inversión del exterior"
+    },
+    "on_pesos": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Obligaciones negociables en pesos"
+    },
+    "on_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Obligaciones negociables en dólares"
+    },
+    "opc_fut": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Escala progresiva 5% a 35%",
+          "No gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "No gravado",
+          "No gravado",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Opciones y futuros"
+    },
+    "pagare_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta financiera",
+          "25%, 30% o 35%",
+          "Gravado",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Gravado",
+          "N/A",
+          "N/A",
+          "Gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta financiera",
+          "Exento",
+          "Gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Gravado",
+          "N/A",
+          "Gravado",
+          "Habitualista: gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta financiera",
+          "Exento",
+          "Gravado",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Gravado",
+          "N/A",
+          "Responsable sustituto",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Pagarés en dólares"
+    },
+    "tp_ext": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "No gravado"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "No gravado",
+          "N/A",
+          "N/A",
+          "No gravado"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Escala progresiva 5% a 35%",
+          "No gravado",
+          "N/A",
+          "Sí",
+          "No gravado"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Gravado 15%",
+          "No gravado",
+          "N/A",
+          "Sí",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Según legislación del país",
+          "No gravado",
+          "N/A",
+          "Según legislación del país",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Según legislación del país",
+          "No gravado",
+          "N/A",
+          "Según legislación del país",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos públicos extranjeros, soberanos y corporativos"
+    },
+    "tp_pesos": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos públicos en pesos sin cláusula de ajuste"
+    },
+    "tp_pesos_ajuste": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos públicos en pesos con cláusula de ajuste (CER, dólar linked)"
+    },
+    "tp_usd": {
+      "filas": [
+        [
+          "Persona jurídica",
+          "Renta por intereses",
+          "25%, 30% o 35%",
+          "Exento",
+          "N/A",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona jurídica",
+          "Venta",
+          "25%, 30% o 35%",
+          "Exento",
+          "SITER",
+          "N/A",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Persona humana",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "Exento",
+          "Exento"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Renta por intereses",
+          "Exento",
+          "Exento",
+          "N/A",
+          "No",
+          "No gravado"
+        ],
+        [
+          "Beneficiario del exterior",
+          "Venta",
+          "Exento",
+          "Exento",
+          "SITER",
+          "No",
+          "No gravado"
+        ]
+      ],
+      "nombre": "Títulos públicos en dólares"
+    }
+  }
+}

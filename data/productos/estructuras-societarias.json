@@ -1,0 +1,128 @@
+{
+  "categoria": "Planificación patrimonial",
+  "cliente": {
+    "aTener": [
+      "Toda estructura debe cumplir la normativa local e internacional (ARCA, CRS) y declararse correctamente.",
+      "Su conveniencia depende de cada caso: requiere análisis legal y contable."
+    ],
+    "bajada": "Una estructura bien diseñada ordena la titularidad de tus inversiones, protege tu patrimonio y prepara una sucesión sin sobresaltos.",
+    "beneficios": [
+      [
+        "Sucesión ordenada",
+        "Los activos no pasan por un juicio sucesorio: cambia la titularidad de las acciones."
+      ],
+      [
+        "Eficiencia internacional",
+        "Evita el impuesto a la herencia de EE.UU. sobre activos de no residentes."
+      ],
+      [
+        "A tu medida",
+        "Podés incluir a tus hijos, incluso menores, y definir accionistas, directores y firmantes."
+      ],
+      [
+        "Inmuebles en EE.UU.",
+        "Una LLC evita el FIRPTA en la venta, con una sociedad holding como segunda capa."
+      ]
+    ],
+    "comoFunciona": [
+      "Analizamos tu situación patrimonial, familiar y fiscal.",
+      "Diseñamos la estructura con abogados y asesores fiscales internacionales.",
+      "Coordinamos la implementación y la apertura de cuentas.",
+      "Revisamos la estructura cuando cambia tu situación."
+    ],
+    "enNeix": "Analizamos tu caso, diseñamos la estrategia y nos ocupamos de la implementación integral junto a especialistas.",
+    "ficha": {
+      "liquidez": "No aplica",
+      "mercado": "BVI, Nevis, EE.UU. (LLC), Canadá",
+      "minimo": "A consultar",
+      "moneda": "Según los activos",
+      "plazo": "Largo plazo",
+      "riesgo": "No aplica: es una herramienta de organización"
+    },
+    "paraQuien": "Familias, empresarios e inversores con activos en el exterior que quieren planificar a largo plazo y ordenar la sucesión.",
+    "queEs": "Las estructuras societarias son vehículos legales, como sociedades en el exterior, LLC o trusts, que se usan para ordenar la tenencia de activos y planificar su transmisión. Si tenés activos en Estados Unidos a tu nombre (acciones, ETFs, cuentas, inmuebles), al fallecer se activa el Estate Tax, con una tasa de hasta 40% por encima de USD 60.000. Una sociedad como titular evita ese impuesto y que los activos pasen por un proceso sucesorio: solo cambia la titularidad de las acciones.",
+    "titular": "Ordená tu patrimonio para hoy y para los que vienen"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 8 · Estructuras societarias + Deck BP Planificación Patrimonial Eficiente + Inversoras",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [
+      [
+        "Es para gente que esconde plata.",
+        "Al contrario: la estructura se declara y cumple CRS. El objetivo es el orden y la sucesión."
+      ],
+      [
+        "Es caro.",
+        "Desde USD 1.600 entre constitución y anualidad, frente a un posible 40% de impuesto a la herencia."
+      ]
+    ],
+    "operativa": [
+      "Diagnóstico patrimonial con el asesor.",
+      "Derivación a estudios jurídicos y contables aliados.",
+      "Apertura de cuentas a nombre de la sociedad."
+    ],
+    "perfiles": [
+      "Familias con patrimonio en el exterior",
+      "Empresarios con sucesión por delante",
+      "Clientes de Inversoras en etapa Ordenar o Transferir"
+    ],
+    "pitch": "Si tenés acciones o una cuenta en EE.UU. a tu nombre, tus herederos pueden pagar hasta 40% de impuesto a la herencia. Una sociedad lo evita y ordena la sucesión.",
+    "preguntas": [
+      "¿Tus inversiones en el exterior están a tu nombre?",
+      "¿Quién accede hoy a tus cuentas si te pasa algo?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "inversoras",
+      "notas-estructuradas",
+      "t-bills"
+    ],
+    "senales": [
+      "Tiene activos en EE.UU. a nombre personal",
+      "Herencia, divorcio, venta de empresa",
+      "Hijos que se incorporan al patrimonio"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "activos_eeuu",
+      "herencia",
+      "venta_empresa"
+    ],
+    "horizonte": [
+      "largo"
+    ],
+    "minimoUSD": 100000,
+    "objetivos": [
+      "sucesion",
+      "internacional",
+      "eficiencia_impositiva"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona"
+    ]
+  },
+  "nombre": "Planificación patrimonial y estructuras",
+  "observaciones": [
+    "Lenguaje sensible: 'confidencialidad', 'diferir o reducir impuestos', 'ventajas fiscales'. Reescrito en clave de orden, sucesión y cumplimiento normativo.",
+    "Menciona AFIP (hoy ARCA).",
+    "El deck BP tiene datos viejos: '+70 colaboradores', 'GPTW 5° año', 'MATBA Rofex'.",
+    "Costo de referencia en Inversoras: desde USD 1.600 (constitución + anualidad). Validar si se comunica."
+  ],
+  "riesgoNivel": 1,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

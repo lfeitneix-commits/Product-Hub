@@ -1,0 +1,115 @@
+{
+  "categoria": "Inversión a medida",
+  "cliente": {
+    "aTener": [
+      "Son instrumentos complejos y con menor liquidez.",
+      "En Ganancias, el tratamiento depende del subyacente. El capital está alcanzado por Bienes Personales."
+    ],
+    "bajada": "Combinamos bonos, acciones y derivados en un solo instrumento, con el nivel de protección y exposición que buscás.",
+    "beneficios": [
+      [
+        "Protección de capital",
+        "Total o parcial, según cómo se diseñe."
+      ],
+      [
+        "Acceso",
+        "A activos y mercados difíciles de alcanzar en forma directa."
+      ],
+      [
+        "Hecha a medida",
+        "Para tu visión y tu perfil."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos con vos el objetivo, el plazo y el nivel de protección.",
+      "Diseñamos la nota o elegimos una en proceso de emisión.",
+      "Al vencimiento cobrás según la fórmula pactada."
+    ],
+    "enNeix": "Diseñamos notas a medida según el contexto y tu perfil, y te explicamos cada escenario de pago antes de invertir.",
+    "ficha": {
+      "liquidez": "Menor que activos tradicionales",
+      "mercado": "Emisores internacionales",
+      "minimo": "Sin mínimo en emisiones abiertas; a medida desde USD 100.000",
+      "moneda": "Dólares",
+      "plazo": "De 6 meses a 10 años; usual 12 a 24 meses",
+      "riesgo": "Según estructura y emisor"
+    },
+    "paraQuien": "Inversores calificados que tienen una visión concreta del mercado y quieren una estrategia que no se consigue con instrumentos tradicionales.",
+    "queEs": "Una nota estructurada combina un instrumento de renta fija con derivados para lograr un resultado específico: por ejemplo, participar de la suba de un índice con el capital protegido total o parcialmente, o cobrar un cupón alto mientras un activo se mantenga en un rango. El emisor es un banco internacional.",
+    "titular": "Una estrategia diseñada para tu visión de mercado"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 7 · Notas estructuradas",
+  "impuestos": [
+    "tp_ext"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "No entiendo cómo funciona.",
+        "Te mostramos el gráfico de pago con tres escenarios. Si no queda claro, no es para vos todavía."
+      ]
+    ],
+    "operativa": [
+      "Suscripción desde cuenta internacional.",
+      "Notas a medida desde USD 100.000."
+    ],
+    "perfiles": [
+      "Inversores calificados con cuenta internacional",
+      "Clientes con visión de mercado definida"
+    ],
+    "pitch": "Si tenés una visión sobre un activo pero no querés arriesgar todo el capital, una nota te permite participar con protección.",
+    "preguntas": [
+      "¿Qué esperás que pase con el mercado en los próximos 12 a 24 meses?",
+      "¿Cuánto capital estás dispuesto a arriesgar?"
+    ],
+    "relacionados": [
+      "cuentas-offshore",
+      "operatoria-internacional",
+      "t-bills",
+      "opciones"
+    ],
+    "senales": [
+      "Pregunta por protección de capital",
+      "Tiene liquidez en USD afuera y busca algo distinto"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": 100000,
+    "objetivos": [
+      "crecimiento",
+      "internacional",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "notas"
+    ],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "Notas estructuradas",
+  "observaciones": [
+    "Rendimiento 'según la nota': sumar 1 o 2 ejemplos de notas vigentes con payoff para que el asesor pueda explicarlo."
+  ],
+  "riesgoNivel": 4,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

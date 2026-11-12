@@ -1,0 +1,127 @@
+{
+  "categoria": "Liquidez y tesorería",
+  "cliente": {
+    "aTener": [
+      "El rendimiento no está garantizado y varía según el tipo de fondo.",
+      "El tratamiento impositivo depende de la composición del fondo."
+    ],
+    "bajada": "Fondos de money market, renta fija, renta variable o mixtos, administrados por equipos profesionales y con rescate desde T+0.",
+    "beneficios": [
+      [
+        "Diversificación",
+        "Con un solo instrumento accedés a una cartera completa."
+      ],
+      [
+        "Liquidez",
+        "Fondos con rescate en el día."
+      ],
+      [
+        "Gestión profesional",
+        "Un equipo especializado administra la cartera."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos con vos el fondo según tu objetivo y plazo.",
+      "Suscribís desde tu cuenta.",
+      "Rescatás cuando lo necesites, según el plazo de liquidación de cada fondo."
+    ],
+    "enNeix": "Seleccionamos fondos de distintas sociedades gerentes y armamos la combinación adecuada para tu objetivo.",
+    "ficha": {
+      "liquidez": "Desde T+0",
+      "mercado": "Vinci Compass, Galileo, Delta, Fima, Schroders, MegaQM",
+      "minimo": "Montos bajos",
+      "moneda": "Pesos o dólares",
+      "plazo": "Desde T+0 a largo plazo",
+      "riesgo": "Bajo a alto, según el fondo"
+    },
+    "paraQuien": "Personas y empresas que buscan una alternativa simple, diversificada y líquida para invertir, con montos bajos.",
+    "queEs": "Un fondo común de inversión reúne el dinero de muchos inversores con un mismo objetivo y lo administra un equipo profesional. Comprás cuotapartes y el fondo invierte por vos. Hay fondos para cada necesidad: de liquidez inmediata (money market), de renta fija en pesos o dólares, de acciones o mixtos.",
+    "titular": "Gestión profesional para tu liquidez y tu cartera"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 5 · FCI",
+  "impuestos": [
+    "fci_tp_ars",
+    "fci_tp_usd",
+    "fci_abiertos"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "FCI de bancos",
+        "Selección multigestora y combinación con el resto de la cartera."
+      ]
+    ],
+    "objeciones": [],
+    "operativa": [
+      "Suscripción y rescate desde la cuenta comitente.",
+      "Plazo de liquidación según cada fondo."
+    ],
+    "perfiles": [
+      "Todos los perfiles",
+      "Tesorerías",
+      "Clientes nuevos"
+    ],
+    "pitch": "El primer paso para que la liquidez trabaje: un money market rinde desde el primer día y lo rescatás cuando quieras.",
+    "preguntas": [
+      "¿Cuándo vas a necesitar esta plata?"
+    ],
+    "relacionados": [
+      "cauciones",
+      "echeq-tesoreria",
+      "fondo-dedicado",
+      "obligaciones-negociables",
+      "fondos-offshore"
+    ],
+    "senales": [
+      "Saldo líquido en cuenta",
+      "Cliente que empieza a invertir"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "corto",
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "tesoreria",
+      "renta",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "fci"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande",
+      "fa"
+    ]
+  },
+  "nombre": "Fondos comunes de inversión",
+  "observaciones": [
+    "Lista 'Compass' como sociedad gerente: hoy es Vinci Compass.",
+    "Riesgo 'bajo a alto': sumar un mini mapa de los fondos que más ofrecemos por perfil."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

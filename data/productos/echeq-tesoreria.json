@@ -1,0 +1,116 @@
+{
+  "categoria": "Eficiencia impositiva",
+  "cliente": {
+    "aTener": [
+      "Los e-cheq 'no a la orden' demoran 72 hs en la cámara.",
+      "Para e-cheq con código postal mayor a 2000 aplica una comisión de valores al cobro de 0,8%."
+    ],
+    "bajada": "Canalizando tus cobros y pagos por tu cuenta comitente y un FCI money market, tu empresa puede ahorrar el 0,6% del impuesto a los débitos y créditos.",
+    "beneficios": [
+      [
+        "Ahorro de 0,6% en cobros",
+        "Los fondos llegan a tu cuenta libres del impuesto al crédito."
+      ],
+      [
+        "Ahorro de 0,6% en pagos",
+        "Pagás a proveedores libre del impuesto al débito."
+      ],
+      [
+        "La plata rinde",
+        "Mientras tanto, tus fondos están invertidos en un money market."
+      ]
+    ],
+    "comoFunciona": [
+      "Cobros: endosás a Neix los e-cheq a nombre de tu empresa.",
+      "A las 48 hs los fondos se suscriben en un FCI money market por al menos una noche.",
+      "Luego disponés de los fondos, libres del impuesto al crédito.",
+      "Pagos: emitimos hasta 2 e-cheq por día con el importe exacto, para que los endoses a tu proveedor sin el impuesto al débito."
+    ],
+    "enNeix": "Armamos el circuito con tu tesorería y lo operamos todos los días.",
+    "ficha": {
+      "liquidez": "48 a 72 hs según el tipo de e-cheq",
+      "mercado": "Cuenta comitente + FCI",
+      "minimo": "Sin mínimo",
+      "moneda": "Pesos",
+      "plazo": "Operatoria diaria",
+      "riesgo": "Bajo: FCI money market"
+    },
+    "paraQuien": "Empresas con volumen relevante de cobros y pagos con cheques, que quieren bajar el costo impositivo de su operatoria diaria.",
+    "queEs": "Cuando cobrás o pagás por banco, cada movimiento paga 0,6% de impuesto a los créditos y otro 0,6% a los débitos. Si los e-cheq que cobrás se depositan en tu cuenta comitente en Neix y pasan al menos una noche en un fondo money market, la suscripción y el rescate del FCI están exentos. Lo mismo para pagar: emitimos e-cheq a nombre de tu empresa para que se los endoses a tus proveedores.",
+    "titular": "Cobrá y pagá con e-cheq sin el impuesto al cheque"
+  },
+  "estado": "a_validar",
+  "fuente": "Ahorro y eficiencia impositiva (e-cheq · FCI)",
+  "impuestos": [
+    "fci_tp_ars"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Es muy operativo.",
+        "El circuito lo operamos nosotros. Tu tesorería solo endosa y nos pide los cheques de pago."
+      ]
+    ],
+    "operativa": [
+      "Endoso de e-cheq a Neix (al día, a la orden de la empresa, sin cláusula 'no a la orden').",
+      "Suscripción automática a FCI money market a las 48 hs.",
+      "Emisión de hasta 2 e-cheq diarios para pagos."
+    ],
+    "perfiles": [
+      "Empresas con muchos cobros y pagos en e-cheq",
+      "Distribuidoras, industria, agro"
+    ],
+    "pitch": "Cada cheque que cobrás o pagás por banco te cuesta 0,6%. Pasándolo por Neix y un money market, ese costo desaparece y además la plata rinde.",
+    "preguntas": [
+      "¿Cuánto cobrás y pagás por mes con cheques?"
+    ],
+    "relacionados": [
+      "fci",
+      "cauciones",
+      "cheques",
+      "fondo-dedicado"
+    ],
+    "senales": [
+      "Volumen mensual alto de e-cheq",
+      "Se queja del costo del impuesto al cheque"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "vende_a_grandes"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "eficiencia_impositiva",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Eficiencia impositiva en tesorería (e-cheq + FCI)",
+  "observaciones": [
+    "Material interno sin formato de one pager: ficha nueva.",
+    "Comisión de valores al cobro de 0,8% para e-cheq con código postal mayor a 2000: confirmar vigencia.",
+    "Validar con Compliance/Impuestos que el circuito sigue vigente tal como está descripto."
+  ],
+  "riesgoNivel": 1,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

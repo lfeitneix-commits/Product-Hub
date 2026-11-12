@@ -1,0 +1,113 @@
+{
+  "categoria": "Financiamiento",
+  "cliente": {
+    "aTener": [
+      "La tasa depende de tu perfil crediticio y de la garantía."
+    ],
+    "bajada": "Emití pagarés en el mercado de capitales y financiá a tu empresa a plazos de hasta 3 años, sin intermediación bancaria.",
+    "beneficios": [
+      [
+        "Plazos más largos",
+        "Hasta 3 años, para financiar proyectos y no solo el día a día."
+      ],
+      [
+        "En la moneda que necesitás",
+        "Emisión en pesos o en dólares, útil si tu negocio genera divisas."
+      ],
+      [
+        "Con o sin aval",
+        "Garantizado, no garantizado o avalado por SGR."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos con vos monto, moneda, plazo y garantía.",
+      "Se emite el pagaré y se negocia en el mercado.",
+      "Recibís los fondos y pagás al vencimiento."
+    ],
+    "enNeix": "Estructuramos la emisión y la combinamos con avales de SGR cuando mejoran tus condiciones.",
+    "ficha": {
+      "liquidez": "Fondos al colocar",
+      "mercado": "MAV / A3 (a confirmar)",
+      "minimo": "A consultar",
+      "moneda": "Pesos o dólares",
+      "plazo": "Hasta 3 años",
+      "riesgo": "Medio, según emisor y garantía"
+    },
+    "paraQuien": "Empresas y pymes que buscan financiar capital de trabajo o proyectos con plazos más largos que los de un cheque.",
+    "queEs": "El pagaré bursátil es un instrumento con el que tu empresa emite deuda a corto, mediano o largo plazo, y la ofrece a inversores del mercado. Se puede emitir en pesos o en dólares, lo que lo hace muy útil para empresas vinculadas al comercio exterior.",
+    "titular": "Financiamiento a tu medida, en pesos o en dólares"
+  },
+  "estado": "a_validar",
+  "fuente": "Capacitación financiamiento (no tiene one pager propio)",
+  "impuestos": [
+    "cpd_pagare_ars",
+    "pagare_usd"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Préstamos bancarios",
+        "Sin dejar activos en garantía, con rescate anticipado y tasa de mercado."
+      ]
+    ],
+    "objeciones": [],
+    "operativa": [
+      "Se opera por EPYME (ver anexo de alta)."
+    ],
+    "perfiles": [
+      "Pymes exportadoras o importadoras",
+      "Empresas con proyectos de inversión"
+    ],
+    "pitch": "Cuando el cheque queda corto de plazo, el pagaré te da hasta 3 años, en pesos o en dólares.",
+    "preguntas": [
+      "¿Para qué es el financiamiento y en qué plazo lo repagás?",
+      "¿Tu empresa genera dólares?"
+    ],
+    "relacionados": [
+      "avales-sgr",
+      "cheques",
+      "facturas-fce"
+    ],
+    "senales": [
+      "Necesita financiamiento a más de un año",
+      "Tiene ingresos en dólares"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "necesita_financiamiento",
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Pagarés bursátiles",
+  "observaciones": [
+    "Producto sin one pager: ficha armada desde la capacitación de financiamiento. Validar con Banca Corporativa."
+  ],
+  "riesgoNivel": 3,
+  "simulador": "descuento",
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

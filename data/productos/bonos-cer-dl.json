@@ -1,0 +1,117 @@
+{
+  "categoria": "Cobertura",
+  "cliente": {
+    "aTener": [
+      "El rendimiento real depende del precio de compra.",
+      "Los dólar linked siguen al oficial, no al dólar financiero."
+    ],
+    "bajada": "Bonos en pesos que ajustan su capital por inflación (CER) o por el tipo de cambio oficial (dólar linked).",
+    "beneficios": [
+      [
+        "Protección del poder adquisitivo",
+        "El capital sigue a la inflación o al dólar oficial."
+      ],
+      [
+        "Cobertura sin dolarizar",
+        "Útil para empresas que tienen costos o deudas en pesos."
+      ],
+      [
+        "Exentos para persona humana",
+        "Sin Ganancias ni Bienes Personales."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos de qué te querés cubrir: inflación o tipo de cambio.",
+      "Elegimos el bono y el plazo según tu horizonte.",
+      "Cobrás cupones y el capital ajustado al vencimiento."
+    ],
+    "enNeix": "Te ayudamos a elegir la cobertura según cuál es tu riesgo real: tus costos, tus deudas o tus ingresos.",
+    "ficha": {
+      "liquidez": "Diaria",
+      "mercado": "ByMA y A3",
+      "minimo": "Nominal mínimo accesible",
+      "moneda": "Pesos ajustados",
+      "plazo": "CER 1 a 8 años; DL 1 a 5 años",
+      "riesgo": "Moderado a alto: riesgo soberano"
+    },
+    "paraQuien": "Personas y empresas con pesos que quieren cubrirse de la inflación o de una devaluación del oficial, sin pasar a dólares.",
+    "queEs": "Los bonos CER ajustan su capital todos los días por el Coeficiente de Estabilización de Referencia, que sigue la inflación. Los dólar linked ajustan por el tipo de cambio oficial mayorista. Los dos pagan una tasa baja sobre ese capital ajustado y te sirven para proteger el poder de compra de tus pesos.",
+    "titular": "Cubrí tus pesos de la inflación o de la devaluación"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager · Bonos CER y Dólar Linked",
+  "impuestos": [
+    "tp_pesos_ajuste"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Compra en ByMA o A3 desde la cuenta comitente."
+    ],
+    "perfiles": [
+      "Empresas con costos en pesos",
+      "Importadores con deudas atadas al oficial",
+      "Personas con gastos futuros en pesos"
+    ],
+    "pitch": "Si tus pesos tienen que mantener el poder de compra, el CER te sigue a la inflación. Si te preocupa una devaluación, el dólar linked.",
+    "preguntas": [
+      "¿Tus próximos gastos son en pesos o en dólares?"
+    ],
+    "relacionados": [
+      "bonos-soberanos",
+      "fci",
+      "futuros-agro",
+      "cauciones"
+    ],
+    "senales": [
+      "Pesos inmovilizados que pierden contra la inflación",
+      "Importador con pagos atados al oficial"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_inflacion",
+      "cobertura_devaluacion"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "cer",
+      "dl"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande",
+      "fa"
+    ]
+  },
+  "nombre": "Bonos CER y dólar linked",
+  "observaciones": [
+    "Los rangos de rendimiento (inflación + 2% a 6%; -2% a +5% sobre el oficial) dependen del momento: fecharlos o quitarlos.",
+    "'Que se patee el tc oficial' es lenguaje coloquial para la vista cliente: reescrito."
+  ],
+  "padre": "bonos-soberanos",
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

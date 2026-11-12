@@ -1,0 +1,135 @@
+{
+  "categoria": "Financiamiento",
+  "cliente": {
+    "aTener": [
+      "Existen tres tipos: no garantizado (depende solo de la solvencia de quien lo libra), garantizado (respaldado con títulos, bonos o dólares) y avalado (por una SGR o un banco).",
+      "La tasa depende del riesgo del librador y del plazo."
+    ],
+    "bajada": "Negociá en el mercado de capitales los cheques que emitís o recibís, y financiá tu capital de trabajo a tasa de mercado.",
+    "beneficios": [
+      [
+        "Liquidez inmediata",
+        "Recibís los fondos en 24 horas, sin esperar el vencimiento."
+      ],
+      [
+        "Mejor tasa con aval",
+        "Con el aval de una SGR o un banco accedés a tasas más bajas, porque el riesgo pasa a ser del avalista."
+      ],
+      [
+        "Trazabilidad total",
+        "Cada operación queda registrada en el mercado, con reglas claras para ambas partes."
+      ]
+    ],
+    "comoFunciona": [
+      "Abrís tu cuenta comitente en Neix y te damos de alta en el mercado.",
+      "Elegís qué cheques negociar: propios, de terceros, con o sin aval.",
+      "Los ofrecemos en el mercado y te acreditamos los fondos en 24 horas.",
+      "Al vencimiento, el cheque se cobra y la operación se cierra sola."
+    ],
+    "enNeix": "Analizamos tu cartera de cheques, te decimos cuáles conviene negociar y en qué condiciones, y combinamos la operación con avales de SGR cuando mejoran tu tasa.",
+    "ficha": {
+      "liquidez": "Fondos en 24 hs",
+      "mercado": "A3 / MAV (a confirmar)",
+      "minimo": "A consultar",
+      "moneda": "Pesos",
+      "plazo": "Hasta 360 días",
+      "riesgo": "Medio a alto, según librador y aval"
+    },
+    "paraQuien": "Empresas y pymes que cobran o pagan con cheques y quieren adelantar fondos sin pasar por un préstamo bancario. Del otro lado, inversores que buscan una tasa en pesos con plazos cortos.",
+    "queEs": "El cheque de pago diferido es la forma más usada por las pymes para financiar capital de trabajo. En lugar de esperar al vencimiento, lo negociás en el mercado: un inversor te adelanta el dinero hoy y cobra el cheque cuando vence. La diferencia entre lo que recibís y el valor del cheque es tu costo de financiamiento.",
+    "titular": "Convertí tus cheques en liquidez en 24 horas"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 1 · Cheques de pago diferidos y avalados + Capacitación financiamiento",
+  "id": "cheques",
+  "impuestos": [
+    "cpd_pagare_ars"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Descuento bancario",
+        "Tasa de mercado (más baja con aval SGR), fondos en 24 hs y sin consumir la línea de crédito del banco."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Mi banco me descuenta los cheques.",
+        "Comparemos la tasa total, con comisiones. En el mercado la tasa la define la oferta de inversores y con aval suele ser más baja. Te armamos la cuenta con tus números."
+      ],
+      [
+        "Es complicado operar en el mercado.",
+        "La operativa la hacemos nosotros. Vos nos decís qué cheques querés negociar y recibís los fondos."
+      ]
+    ],
+    "operativa": [
+      "Alta de la empresa en EPYME (ver anexo de la capacitación).",
+      "Carga y custodia de los e-cheq en la cuenta comitente.",
+      "Liquidación en 24 hs por el mercado."
+    ],
+    "perfiles": [
+      "Pymes industriales y comerciales con cadena de pagos en cheques",
+      "Proveedores de grandes empresas",
+      "Inversores que buscan tasa en pesos de corto plazo (lado colocador)"
+    ],
+    "pitch": "Si tu empresa cobra con cheques a 60, 90 o 120 días, podés tener esa plata mañana. Lo negociamos en el mercado a tasa de mercado, y si sumamos un aval de SGR, la tasa baja todavía más.",
+    "preguntas": [
+      "¿Cómo cobrás a tus clientes y a qué plazo?",
+      "¿Hoy cómo financiás el capital de trabajo y a qué costo?",
+      "¿Tenés calificación en alguna SGR?"
+    ],
+    "relacionados": [
+      "avales-sgr",
+      "facturas-fce",
+      "pagares",
+      "cauciones",
+      "echeq-tesoreria"
+    ],
+    "senales": [
+      "Menciona tensión de capital de trabajo o descalce de cobros y pagos",
+      "Toma descubierto bancario o adelantos caros",
+      "Recibe muchos cheques de clientes grandes"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "necesita_financiamiento",
+      "vende_a_grandes"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "cheques"
+    ],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Cheques de pago diferido",
+  "observaciones": [
+    "El one pager dice que se opera en A3; la capacitación de financiamiento dice MAV. Confirmar mercado.",
+    "Plazo: el one pager dice 'mín. 10 días hábiles' y 'hasta 360 días'. Validar ambos con la Mesa.",
+    "'Destinado a' habla del inversor (sofisticado y calificado) y no de la empresa que se financia. La ficha separa los dos lados."
+  ],
+  "riesgoNivel": 3,
+  "simulador": "descuento",
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

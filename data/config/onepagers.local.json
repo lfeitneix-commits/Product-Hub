@@ -1,0 +1,27 @@
+{
+ "map": {
+  "acciones-argentinas": "onepagers/acciones-argentinas.pdf",
+  "avales-sgr": "onepagers/avales-sgr.pdf",
+  "bonos-cer-dl": "onepagers/bonos-cer-dl.pdf",
+  "bonos-soberanos": "onepagers/bonos-soberanos.pdf",
+  "cauciones": "onepagers/cauciones.pdf",
+  "cedears": "onepagers/cedears.pdf",
+  "cheques": "onepagers/cheques.pdf",
+  "cuentas-offshore": "onepagers/cuentas-offshore.pdf",
+  "estructuras-societarias": "onepagers/estructuras-societarias.pdf",
+  "facturas-fce": "onepagers/facturas-fce.pdf",
+  "fci": "onepagers/fci.pdf",
+  "fideicomisos": "onepagers/fideicomisos.pdf",
+  "futuros-dolar": "onepagers/futuros-dolar.pdf",
+  "inversiones-alternativas": "onepagers/inversiones-alternativas.pdf",
+  "licitaciones-primarias": "onepagers/licitaciones-primarias.pdf",
+  "notas-estructuradas": "onepagers/notas-estructuradas.pdf",
+  "obligaciones-negociables": "onepagers/obligaciones-negociables.pdf",
+  "on-emision": "onepagers/on-emision.pdf",
+  "opciones": "onepagers/opciones.pdf",
+  "operaciones-bloque": "onepagers/operaciones-bloque.pdf",
+  "operatoria-internacional": "onepagers/operatoria-internacional.pdf",
+  "pagares": "onepagers/pagares.pdf",
+  "t-bills": "onepagers/t-bills.pdf"
+ }
+}

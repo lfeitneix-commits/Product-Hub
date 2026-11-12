@@ -1,0 +1,116 @@
+{
+  "categoria": "Ejecución y acceso a mercado",
+  "cliente": {
+    "aTener": [
+      "Las condiciones dependen del instrumento y del momento del mercado."
+    ],
+    "bajada": "Para operaciones de gran volumen en acciones y CEDEARs, la Mesa ejecuta en bloque y te da un precio único.",
+    "beneficios": [
+      [
+        "Precio único",
+        "Evitás que el tamaño de la operación mueva el precio."
+      ],
+      [
+        "Discreción",
+        "Ejecución cuidada de posiciones grandes."
+      ],
+      [
+        "Rapidez",
+        "Resolvés en una operación lo que llevaría días."
+      ]
+    ],
+    "comoFunciona": [
+      "Nos contás qué instrumento y qué monto querés operar.",
+      "La Mesa te propone precio y estrategia de ejecución.",
+      "Ejecutamos en bloque y liquidamos en tu cuenta."
+    ],
+    "enNeix": "Somos market makers de CEDEARs en ByMA y hacedores de mercado en acciones en A3.",
+    "ficha": {
+      "liquidez": "Inmediata",
+      "mercado": "ByMA",
+      "minimo": "Más de ARS 450 millones",
+      "moneda": "Pesos o dólares",
+      "plazo": "Inmediato",
+      "riesgo": "Bajo de ejecución"
+    },
+    "paraQuien": "Inversores, family offices y empresas que necesitan comprar o vender posiciones grandes.",
+    "queEs": "Cuando una operación es muy grande para la liquidez del mercado, ejecutarla de a poco puede mover el precio en tu contra. En acciones y CEDEARs, la Mesa resuelve operaciones de más de ARS 450 millones en bloque, con un precio acordado y ejecución eficiente.",
+    "titular": "Movimientos grandes, ejecutados sin mover el precio"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [
+    "acciones",
+    "cedears"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Solicitud a la Mesa con instrumento y monto.",
+      "Ejecución en bloque."
+    ],
+    "perfiles": [
+      "Patrimonios grandes",
+      "Family offices",
+      "Tesorerías corporativas"
+    ],
+    "pitch": "Si tenés que mover una posición grande en acciones o CEDEARs, la Mesa la ejecuta en bloque a un precio único.",
+    "preguntas": [
+      "¿Qué monto querés operar y en cuánto tiempo?"
+    ],
+    "relacionados": [
+      "cedears",
+      "acciones-argentinas",
+      "pricing-fx"
+    ],
+    "senales": [
+      "Quiere desarmar o armar una posición grande",
+      "Venta de una tenencia heredada"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "herencia",
+      "venta_empresa"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": 300000,
+    "objetivos": [
+      "crecimiento",
+      "internacional"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "acciones",
+      "cedears"
+    ],
+    "tipos": [
+      "persona",
+      "grande",
+      "fa"
+    ]
+  },
+  "nombre": "Operaciones en bloque",
+  "observaciones": [
+    "Validar el umbral (más de ARS 450 millones) y si aplica también a otros instrumentos.",
+    "Confirmar con la Mesa la explicación sobre CEDEARs y acciones sin CENEBI."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

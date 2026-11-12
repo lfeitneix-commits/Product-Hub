@@ -1,0 +1,127 @@
+{
+  "categoria": "Liquidez y tesorería",
+  "cliente": {
+    "aTener": [
+      "La obligación de indemnizar no depende del saldo del FAL: si no alcanza, la empresa cubre la diferencia.",
+      "Los rendimientos esperados son teóricos, antes de honorarios (gerente 0,80% y depositaria 0,10% + IVA), y no están garantizados."
+    ],
+    "bajada": "El FAL es obligatorio desde diciembre de 2026. Elegí cómo se administra y convertí un gasto imprevisto en un flujo planificado.",
+    "beneficios": [
+      [
+        "Costo incremental 0%",
+        "El aporte se compensa con las contribuciones al SIPA."
+      ],
+      [
+        "Exento de Ganancias e IVA",
+        "Los rendimientos del fondo no tributan."
+      ],
+      [
+        "Patrimonio protegido",
+        "Inembargable y separado del patrimonio de la empresa."
+      ],
+      [
+        "Dos perfiles",
+        "Multiempleador I (riesgo muy bajo, 100% bancos, tasa fija) y Multiempleador II (riesgo moderado, 90% soberano)."
+      ]
+    ],
+    "comoFunciona": [
+      "Completás el formulario online de apertura y te contactamos.",
+      "Con el ID del fondo, confirmás tu elección en ARCA.",
+      "Vinci Compass te habilita un acceso para ver tu saldo en todo momento."
+    ],
+    "enNeix": "Calculamos el punto de equilibrio entre lo que acumula tu FAL y tu costo indemnizatorio, para que decidas con ese dato a la vista.",
+    "ficha": {
+      "liquidez": "Los primeros 6 meses no se puede disponer",
+      "mercado": "FCI FAL de Vinci Compass",
+      "minimo": "Obligatorio por nómina",
+      "moneda": "Pesos",
+      "plazo": "Largo plazo (acumulación)",
+      "riesgo": "Muy bajo (Multiempleador I) o moderado (Multiempleador II)"
+    },
+    "paraQuien": "Todos los empleadores del sector privado con trabajadores registrados de más de 12 meses de antigüedad. Quedan excluidos construcción, empleo público y casas particulares.",
+    "queEs": "Los Fondos de Asistencia Laboral son cuentas individuales por empleador, creadas por la Ley 27.802, con patrimonio separado e inembargable. Sirven para financiar indemnizaciones por despido sin causa, acuerdos de desvinculación o fallecimiento. La contribución mensual es de 2,5% de la masa salarial para micro y pymes y de 1% para grandes empresas, y se compensa con una reducción equivalente de contribuciones patronales: no implica un costo adicional.",
+    "titular": "Una reserva propia para las indemnizaciones, financiada con lo que tu empresa ya aporta"
+  },
+  "estado": "a_validar",
+  "fuente": "FAL · Guía informativa para empresas (marzo 2026) + FAL Neix Carteras Vinci Compass (octubre 2026)",
+  "impuestos": [],
+  "interno": {
+    "competencia": [
+      [
+        "Bancos",
+        "Gestión en el mercado de capitales y acceso al resto de las soluciones de Banca Corporativa."
+      ]
+    ],
+    "objeciones": [
+      [
+        "El banco me lo ofrece con 0% de comisión.",
+        "Mirá el rendimiento neto y el análisis de breakeven, no solo la comisión. El 0,8% de Neix incluye el criterio de inversión y el seguimiento, dentro del tope legal de 1%."
+      ]
+    ],
+    "operativa": [
+      "Formulario de selección y conformidad digital vía Neix.",
+      "Confirmación en ARCA con el ID del fondo.",
+      "Acceso de visualización de Vinci Compass."
+    ],
+    "perfiles": [
+      "Empresas clientes de Banca Corporativa",
+      "Empresas clientes de FAs",
+      "Pymes con nómina relevante (aporte de 2,5%)"
+    ],
+    "pitch": "Tu empresa ya va a aportar al FAL sí o sí. La decisión es quién lo administra y con qué criterio. Te mostramos en cuánto tiempo el fondo cubre tu costo indemnizatorio.",
+    "preguntas": [
+      "¿Cuántos empleados con más de 12 meses tenés y cuál es el salario promedio?",
+      "¿Ya elegiste dónde va a estar tu FAL?"
+    ],
+    "relacionados": [
+      "fondo-dedicado",
+      "echeq-tesoreria",
+      "cauciones"
+    ],
+    "senales": [
+      "Empresa con empleados registrados que todavía no eligió administrador",
+      "Pregunta por la reforma laboral",
+      "Alta rotación o desvinculaciones previstas"
+    ],
+    "video": "https://www.neix.com.ar/fal"
+  },
+  "match": {
+    "eventos": [
+      "nomina"
+    ],
+    "horizonte": [
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "fal"
+    ],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Fondos de Asistencia Laboral (FAL)",
+  "observaciones": [
+    "La guía es de marzo 2026 y habla de vigencia prevista el 1/6/2026; el one pager de Vinci Compass dice vigencia 1/12/2026. Actualizar la guía.",
+    "Rendimientos esperados (23% y 28% TNA) son a octubre 2026: requieren actualización periódica.",
+    "La guía usa 'Neix S.A. (guion) Agente de Liquidación y Compensación. CNV N° 145/419': unificar la leyenda regulatoria."
+  ],
+  "riesgoNivel": 1,
+  "simulador": "fal",
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

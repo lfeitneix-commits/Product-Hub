@@ -1,0 +1,27 @@
+{
+  "map": {
+    "acciones-argentinas": "/_blob/3b05ee5113141cfc876dc74aa1fb4f44",
+    "avales-sgr": "/_blob/0d9be16b4d77d77c409a3f66a82e8dcb",
+    "bonos-cer-dl": "/_blob/13c0b2dc4a88bbd8c027aaafb473d090",
+    "bonos-soberanos": "/_blob/684c10b8f9452057efc47e1797e44e0b",
+    "cauciones": "/_blob/e76297be8bd05b5aa2c1b700c6c2fbe7",
+    "cedears": "/_blob/e3562c582430ec80c0614255856caf05",
+    "cheques": "/_blob/cd295e0763868f18246eeedc8e58144c",
+    "cuentas-offshore": "/_blob/ebd3fcd654e9c556f14600a61f32e11a",
+    "estructuras-societarias": "/_blob/d5fd8eab7638667e5ccaa398d4da9bfb",
+    "facturas-fce": "/_blob/359820fd0bb1590b46f824c339650bc7",
+    "fci": "/_blob/1326870d18832e0385841fb83c987bb7",
+    "fideicomisos": "/_blob/4f753ba750b0dd08c9b58282658e9b3d",
+    "futuros-dolar": "/_blob/9e2b21b53afc438f9d4da33a1cf9600f",
+    "inversiones-alternativas": "/_blob/95dc06e3096111180ff241e24bbc6980",
+    "licitaciones-primarias": "/_blob/e16599f49be07d07ea71b067366c565d",
+    "notas-estructuradas": "/_blob/34730909d3a0e36d5f30c134b783caef",
+    "obligaciones-negociables": "/_blob/2fca583d707e91e5ae3cdab6cf2e8eed",
+    "on-emision": "/_blob/490d2b53702fa13425965035d0bb597c",
+    "opciones": "/_blob/542209fead262f6e158044641f2dda5d",
+    "operaciones-bloque": "/_blob/793d7ab8130fa2701f3c6fe98164b36d",
+    "operatoria-internacional": "/_blob/d7bd134267766a27215033a96a163a4d",
+    "pagares": "/_blob/861e0b4a41750c58ee679f49c8553ce9",
+    "t-bills": "/_blob/909c645ead9bfef5b8ec788c136be534"
+  }
+}

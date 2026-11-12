@@ -1,0 +1,119 @@
+{
+  "categoria": "Cobertura",
+  "cliente": {
+    "aTener": [
+      "Los contratos estándar de soja, maíz y trigo se liquidan con entrega física; los mini, por diferencias.",
+      "Operar futuros requiere integrar márgenes de garantía."
+    ],
+    "bajada": "Gestioná el precio de tu producción y el tipo de cambio con futuros en A3, con contratos estándar y mini.",
+    "beneficios": [
+      [
+        "Cobertura",
+        "Eliminás la incertidumbre del precio de tu producción o de tus insumos."
+      ],
+      [
+        "Para todos los tamaños",
+        "Contratos estándar de 100 tn y mini de 10 tn con liquidación financiera."
+      ],
+      [
+        "A medida",
+        "Registro OTC para operaciones fuera de los estándares."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos con vos qué producto, volumen y plazo querés cubrir.",
+      "Tomamos la posición en futuros estándar, mini u OTC.",
+      "Al vencimiento, se liquida con entrega física o por diferencias, según el contrato."
+    ],
+    "enNeix": "Somos proveedores de liquidez en A3 y combinamos cobertura de granos con cobertura de tipo de cambio.",
+    "ficha": {
+      "liquidez": "Diaria",
+      "mercado": "A3 Mercados",
+      "minimo": "Contratos mini de 10 tn",
+      "moneda": "Dólares por tonelada",
+      "plazo": "Según la posición",
+      "riesgo": "Medio: requiere márgenes de garantía"
+    },
+    "paraQuien": "Productores y empresas del agro, desde los más chicos (con contratos mini de 10 toneladas) hasta acopios y exportadores.",
+    "queEs": "Un futuro es un contrato para comprar o vender un producto a un precio fijado hoy, con entrega en una fecha futura. Si sos productor, te permite asegurar el precio de tu soja, maíz o trigo antes de cosecharlos. Los contratos se liquidan a través de una cámara compensadora, que garantiza su cumplimiento.",
+    "titular": "Asegurá hoy el precio de tu próxima cosecha"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 1 · Futuros Agro (Mesa)",
+  "impuestos": [
+    "opc_fut"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Los futuros son especulación.",
+        "Usados para cubrir tu producción hacen lo opuesto: te sacan riesgo de precio."
+      ]
+    ],
+    "operativa": [
+      "Cuenta habilitada para derivados en A3.",
+      "Integración de márgenes de garantía."
+    ],
+    "perfiles": [
+      "Productores agropecuarios",
+      "Acopios y exportadores",
+      "Empresas con insumos agrícolas"
+    ],
+    "pitch": "Fijá hoy el precio de tu soja o tu maíz. Con los contratos mini, cualquier productor puede cubrirse desde 10 toneladas.",
+    "preguntas": [
+      "¿Qué producís y cuántas toneladas esperás?",
+      "¿Hoy cómo te cubrís del precio?"
+    ],
+    "relacionados": [
+      "opciones",
+      "avales-sgr",
+      "cheques"
+    ],
+    "senales": [
+      "Cliente del agro (aparece en la documentación SGR: SISA)",
+      "Menciona volatilidad de precios o del dólar"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "agro",
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_precios",
+      "cobertura_devaluacion"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "futuros"
+    ],
+    "tipos": [
+      "pyme",
+      "grande",
+      "persona"
+    ]
+  },
+  "nombre": "Coberturas con futuros agropecuarios",
+  "observaciones": [
+    "Dice 'Top 10 ByMA': hoy Neix es top 5 en ByMA.",
+    "Contacto personal (Javier De Apellaniz): definir si se mantiene o se usa el mail de la unidad.",
+    "Sumar futuros de dólar para importadores y exportadores (mencionado en la capacitación, sin one pager)."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

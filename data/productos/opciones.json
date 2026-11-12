@@ -1,0 +1,110 @@
+{
+  "categoria": "Cobertura",
+  "cliente": {
+    "aTener": [
+      "Quien compra puede perder toda la prima; quien vende puede tener pérdidas mayores.",
+      "Requieren seguimiento activo."
+    ],
+    "bajada": "Contratos que te dan el derecho, sin la obligación, de comprar o vender un activo a un precio fijado.",
+    "beneficios": [
+      [
+        "Cobertura",
+        "Ponés un piso a una posición sin venderla."
+      ],
+      [
+        "Renta adicional",
+        "Lanzar opciones sobre acciones que tenés genera ingresos por primas."
+      ],
+      [
+        "Capital acotado",
+        "Tomás exposición pagando solo la prima."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos el objetivo: cubrir, generar renta o tomar una posición.",
+      "Elegimos subyacente, strike y vencimiento.",
+      "Pagás o cobrás la prima, y antes del vencimiento podés ejercer, vender o dejar expirar."
+    ],
+    "enNeix": "Diseñamos estrategias de cobertura con asesoramiento técnico especializado.",
+    "ficha": {
+      "liquidez": "Según la serie",
+      "mercado": "ByMA",
+      "minimo": "Según el contrato",
+      "moneda": "Pesos o dólares",
+      "plazo": "Corto a largo",
+      "riesgo": "Alto por apalancamiento"
+    },
+    "paraQuien": "Inversores que quieren cubrir posiciones o implementar estrategias específicas, y que entienden el riesgo del apalancamiento.",
+    "queEs": "Una opción es un contrato que le da a quien la compra el derecho de comprar (call) o vender (put) un activo a un precio determinado (strike) hasta una fecha. Por ese derecho se paga una prima. Se usan para proteger una cartera de una caída, para generar renta extra sobre acciones que ya tenés o para tomar una posición con capital acotado.",
+    "titular": "Protegé tu cartera o expresá una visión con capital acotado"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 6 · Opciones",
+  "impuestos": [
+    "opc_fut"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Cuenta habilitada para derivados.",
+      "Integración de garantías para lanzadores."
+    ],
+    "perfiles": [
+      "Agresivos con experiencia",
+      "Carteras de acciones grandes que buscan cobertura"
+    ],
+    "pitch": "Si tenés una cartera de acciones, podés ponerle un seguro (put) o cobrarle una renta extra (lanzamiento cubierto).",
+    "preguntas": [
+      "¿Querés proteger lo que ya ganaste o buscar más rendimiento?"
+    ],
+    "relacionados": [
+      "acciones-argentinas",
+      "cedears",
+      "futuros-agro",
+      "notas-estructuradas"
+    ],
+    "senales": [
+      "Ganancia acumulada importante en una acción",
+      "Preocupación por una caída puntual"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_precios",
+      "crecimiento"
+    ],
+    "perfiles": [
+      "agresivo"
+    ],
+    "tenencia": [
+      "opciones"
+    ],
+    "tipos": [
+      "persona",
+      "fa",
+      "grande"
+    ]
+  },
+  "nombre": "Opciones",
+  "observaciones": [
+    "Mezcla cobertura y especulación en 'Destinado a'. Separado en dos usos.",
+    "'Cobertura sobre dólar, tasa o commodities' son en general futuros: precisar."
+  ],
+  "riesgoNivel": 5,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

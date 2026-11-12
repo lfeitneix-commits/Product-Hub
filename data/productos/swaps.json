@@ -1,0 +1,117 @@
+{
+  "categoria": "Ejecución y acceso a mercado",
+  "cliente": {
+    "aTener": [
+      "Las oportunidades dependen del momento del mercado.",
+      "Cada rotación tiene costos de operación que conviene comparar con la ganancia esperada."
+    ],
+    "bajada": "La Mesa detecta instrumentos que cotizan por encima de su valor relativo y te propone cambiarlos por alternativas más baratas con un perfil similar.",
+    "beneficios": [
+      [
+        "Más rendimiento, mismo perfil",
+        "Capturás la diferencia de precio sin asumir más riesgo."
+      ],
+      [
+        "Ejecución coordinada",
+        "La Mesa se hace cargo de las dos patas de la operación."
+      ],
+      [
+        "Cartera viva",
+        "Tu cartera se revisa activamente, no queda quieta."
+      ]
+    ],
+    "comoFunciona": [
+      "La Mesa identifica un instrumento caro en tu cartera.",
+      "Tu asesor te propone el reemplazo y te muestra la diferencia.",
+      "Si estás de acuerdo, la Mesa ejecuta la venta y la compra en simultáneo."
+    ],
+    "enNeix": "Nuestra Mesa monitorea los precios relativos todo el día y te avisa cuando aparece una oportunidad concreta.",
+    "ficha": {
+      "liquidez": "Inmediata",
+      "mercado": "ByMA y A3",
+      "minimo": "Según los instrumentos",
+      "moneda": "Según los instrumentos",
+      "plazo": "Operación puntual",
+      "riesgo": "Similar al de tu cartera actual"
+    },
+    "paraQuien": "Inversores con cartera de renta fija que quieren mejorar su rendimiento sin cambiar su perfil de riesgo.",
+    "queEs": "En renta fija, dos bonos parecidos pueden cotizar a precios muy distintos en un momento dado. Cuando uno de tu cartera está caro frente a sus comparables, te proponemos venderlo y comprar otro con perfil similar a mejor precio. La Mesa ejecuta las dos patas de la operación en forma coordinada, para que captures la diferencia sin quedar descalzado.",
+    "titular": "Cuando un bono de tu cartera está caro, lo rotamos por uno mejor"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [
+      [
+        "Estoy cómodo con lo que tengo.",
+        "Mantenés el mismo perfil. Lo que cambia es que dejás de pagar de más por un instrumento caro."
+      ]
+    ],
+    "operativa": [
+      "Propuesta de rotación de la Mesa al oficial.",
+      "Ejecución simultánea de venta y compra."
+    ],
+    "perfiles": [
+      "Clientes con cartera de renta fija relevante",
+      "Clientes de FAs con carteras armadas"
+    ],
+    "pitch": "La Mesa se hace cargo: cuando un bono de tu cartera está caro, te lo cambiamos por uno equivalente más barato y ejecutamos todo nosotros.",
+    "preguntas": [
+      "¿Cuándo fue la última vez que revisamos tu renta fija contra sus comparables?"
+    ],
+    "relacionados": [
+      "bonos-soberanos",
+      "obligaciones-negociables",
+      "trade-ideas",
+      "bonos-iliquidos"
+    ],
+    "senales": [
+      "Cartera de bonos que no se revisa hace tiempo",
+      "Concentración en un instrumento que corrió mucho"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "corto",
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta",
+      "crecimiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "soberanos",
+      "on"
+    ],
+    "tipos": [
+      "persona",
+      "fa",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Rotación de cartera (swaps)",
+  "observaciones": [
+    "Ficha nueva: validar con la Mesa cómo se presenta al cliente y el costo de la operación."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

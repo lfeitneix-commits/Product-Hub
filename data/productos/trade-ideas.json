@@ -1,0 +1,99 @@
+{
+  "categoria": "Ejecución y acceso a mercado",
+  "cliente": {
+    "aTener": [
+      "Las ideas son de carácter informativo y no constituyen una recomendación personalizada."
+    ],
+    "bajada": "Oportunidades concretas de mercado, con instrumento, precio y fundamento, que la Mesa comparte por WhatsApp.",
+    "beneficios": [
+      [
+        "Ideas accionables",
+        "Instrumento, precio y fundamento en un mensaje."
+      ],
+      [
+        "Cerca del mercado",
+        "La mirada de la Mesa, en tiempo real."
+      ]
+    ],
+    "comoFunciona": [
+      "Te sumamos al grupo de trade ideas.",
+      "Recibís las ideas con su fundamento.",
+      "Si te interesa, la operás con tu asesor."
+    ],
+    "enNeix": "Una Mesa con tecnología propia y presencia en todos los mercados locales.",
+    "ficha": {
+      "liquidez": "Según el instrumento",
+      "mercado": "ByMA, A3 y exterior",
+      "minimo": "Sin mínimo",
+      "moneda": "Según la idea",
+      "plazo": "Según la idea",
+      "riesgo": "Según la idea"
+    },
+    "paraQuien": "Inversores activos que quieren estar cerca del mercado y recibir ideas accionables.",
+    "queEs": "Nuestra Mesa sigue el mercado todo el día. Cuando detecta una oportunidad concreta, la comparte con instrumento, precio de referencia y el porqué. Vos decidís si querés operarla con tu asesor.",
+    "titular": "Las ideas de nuestra Mesa, en tu teléfono"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Alta en el grupo de WhatsApp de trade ideas."
+    ],
+    "perfiles": [
+      "Inversores activos",
+      "FAs que buscan contenido para sus clientes"
+    ],
+    "pitch": "Te sumamos al grupo donde la Mesa manda sus ideas: qué comprar, a qué precio y por qué.",
+    "preguntas": [
+      "¿Te gustaría recibir las ideas de la Mesa?"
+    ],
+    "relacionados": [
+      "swaps",
+      "bonos-iliquidos",
+      "pricing-fx"
+    ],
+    "senales": [
+      "Pregunta seguido por oportunidades",
+      "Opera por su cuenta"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "crecimiento",
+      "renta"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "Trade ideas de la Mesa",
+  "observaciones": [
+    "Definir quién recibe las trade ideas (grupos de WhatsApp) y cómo se suma un cliente.",
+    "Sumar disclaimer estándar a cada idea."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

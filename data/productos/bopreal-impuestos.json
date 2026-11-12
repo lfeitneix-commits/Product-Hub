@@ -1,0 +1,109 @@
+{
+  "categoria": "Eficiencia impositiva",
+  "cliente": {
+    "aTener": [
+      "No se puede usar para aportes y contribuciones a la seguridad social, obras sociales, ART, seguros de vida obligatorios, impuesto al cheque ni obligaciones como agente de retención o percepción."
+    ],
+    "bajada": "El BOPREAL serie BPOB7 se puede aplicar a su valor técnico para cancelar impuestos nacionales y obligaciones aduaneras.",
+    "beneficios": [
+      [
+        "Planificación fiscal",
+        "Anticipás tus compromisos con un instrumento líquido."
+      ],
+      [
+        "Rendimiento mientras tanto",
+        "El bono rinde hasta que lo aplicás."
+      ],
+      [
+        "Trazabilidad",
+        "El BCRA informa periódicamente a ARCA el valor técnico aplicable."
+      ]
+    ],
+    "comoFunciona": [
+      "Comprás BPOB7 en el mercado.",
+      "Lo mantenés en cartera generando rendimiento.",
+      "Al momento del vencimiento fiscal, lo aplicás a su valor técnico, al tipo de cambio de la RG 5469/2023."
+    ],
+    "enNeix": "Calculamos con tu empresa cuánto conviene comprar y cuándo, según tu calendario fiscal.",
+    "ficha": {
+      "liquidez": "Mercado secundario",
+      "mercado": "ByMA",
+      "minimo": "A consultar",
+      "moneda": "Dólares",
+      "plazo": "Según tus vencimientos fiscales",
+      "riesgo": "Bajo a medio: riesgo BCRA"
+    },
+    "paraQuien": "Empresas con obligaciones fiscales o aduaneras relevantes que quieren planificarlas y generar rendimiento mientras tanto.",
+    "queEs": "El BPOB7 es una serie del Bono para la Reconstrucción de una Argentina Libre (BOPREAL), emitido por el BCRA. Su particularidad es que se puede usar para pagar impuestos nacionales, obligaciones aduaneras y sus intereses y multas, computado a su valor técnico.",
+    "titular": "Pagá impuestos con un bono que rinde mientras esperás"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 2 · BOPREAL para pago de impuestos (Mesa)",
+  "impuestos": [
+    "tp_usd"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Compra de BPOB7 en la cuenta comitente.",
+      "Aplicación al pago según la normativa de ARCA."
+    ],
+    "perfiles": [
+      "Empresas importadoras",
+      "Empresas con saldos de Ganancias o IVA relevantes"
+    ],
+    "pitch": "Si tu empresa va a pagar impuestos nacionales o aduaneros, puede comprar hoy un bono que rinde y aplicarlo a su valor técnico.",
+    "preguntas": [
+      "¿Cuál es tu calendario de vencimientos fiscales?"
+    ],
+    "relacionados": [
+      "bonos-soberanos",
+      "bonos-soberanos",
+      "cauciones"
+    ],
+    "senales": [
+      "Importa y paga obligaciones aduaneras",
+      "Tiene un vencimiento fiscal grande en los próximos meses"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "impuestos_proximos",
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "eficiencia_impositiva",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "BOPREAL para pago de impuestos",
+  "observaciones": [
+    "Menciona 'AFIP' (hoy ARCA) y 'a partir de abril de 2026' como futuro: actualizar tiempos verbales.",
+    "Dice 'Top 10 ByMA': hoy Neix es top 5 en ByMA.",
+    "Contacto personal (Javier De Apellaniz) en lugar de la unidad: definir si se mantiene."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

@@ -1,0 +1,135 @@
+{
+  "categoria": "Internacional",
+  "cliente": {
+    "aTener": [
+      "Requiere documentación de origen de fondos (DDJJ de Bienes Personales o Ganancias, certificación contable, herencia, venta de una propiedad, entre otros).",
+      "Activos en EE.UU. a nombre personal pueden quedar alcanzados por el impuesto a la herencia: conviene evaluar una estructura."
+    ],
+    "bajada": "Una cuenta de inversión en el exterior a tu nombre o el de tu sociedad, con acceso a todos los mercados y tarjeta de débito asociada.",
+    "beneficios": [
+      [
+        "Custodia de primer nivel",
+        "Pershing, con seguro FDIC de USD 250.000 y cobertura adicional."
+      ],
+      [
+        "Acceso global",
+        "Acciones, ETFs, fondos, bonos, opciones y futuros."
+      ],
+      [
+        "Fondos disponibles afuera",
+        "Tarjeta de débito asociada para operar y disponer de tus fondos."
+      ]
+    ],
+    "comoFunciona": [
+      "Reunimos la documentación de identidad, domicilio y origen de fondos.",
+      "Abrimos la cuenta a tu nombre o al de tu sociedad.",
+      "La fondeás con títulos o con una transferencia desde tu cuenta espejo (CCL).",
+      "Diseñamos con vos la estrategia de inversión."
+    ],
+    "enNeix": "Te acompañamos desde la apertura y diseñamos la estrategia junto a vos. Operamos con Interactive Brokers, J.P. Morgan, BNY Mellon y StoneX.",
+    "ficha": {
+      "liquidez": "Según los activos",
+      "mercado": "Mercados globales vía Pershing",
+      "minimo": "USD 100.000",
+      "moneda": "Dólares",
+      "plazo": "Según la estrategia",
+      "riesgo": "Según los activos elegidos"
+    },
+    "paraQuien": "Personas y empresas con al menos USD 100.000 para invertir que quieren diversificar fuera de Argentina y disponer de fondos en el exterior.",
+    "queEs": "Abrimos tu cuenta de inversión internacional con custodia en Pershing (BNY). Desde ahí podés invertir en acciones globales, ETFs, ADRs, fondos mutuos, bonos corporativos y soberanos, opciones y futuros, con el acompañamiento de tu asesor en Neix.",
+    "titular": "Tu patrimonio, custodiado por el custodio más grande del mundo"
+  },
+  "estado": "a_validar",
+  "fuente": "Instructivo 3 · Apertura off shore + Inversoras (custodia Pershing)",
+  "impuestos": [
+    "tp_ext",
+    "fondos_ext"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Bancas privadas internacionales",
+        "Asesor local y mirada integral del patrimonio local y del exterior."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Ya tengo cuenta en un banco de afuera.",
+        "Podés mantenerla. Lo que sumamos es el asesoramiento cercano y la mirada integral con tu patrimonio local."
+      ]
+    ],
+    "operativa": [
+      "Documentación: ID vigente (pasaporte o DNI), selfie con el ID, verificación de domicilio de menos de 6 meses.",
+      "Origen de fondos: DDJJ Bienes Personales, DDJJ Ganancias, certificación contable, certificación de herencia, boleto de compraventa, acta de retiro de dividendos, entre otros.",
+      "Información de fondeo: institución de origen y fecha estimada.",
+      "Fondeo: transferencia de títulos o transferencia desde cuenta espejo (CCL)."
+    ],
+    "perfiles": [
+      "HNW con dólares afuera o en el banco",
+      "Familias que buscan diversificar jurisdicción",
+      "Empresas que quieren disponer de fondos en el exterior"
+    ],
+    "pitch": "Una cuenta afuera, en Pershing, con tu asesor de Neix al lado. Desde USD 100.000.",
+    "preguntas": [
+      "¿Dónde tenés hoy tus dólares?",
+      "¿Necesitás disponer de fondos afuera?"
+    ],
+    "relacionados": [
+      "estructuras-societarias",
+      "notas-estructuradas",
+      "t-bills",
+      "inversoras",
+      "operatoria-internacional",
+      "canje",
+      "fondos-offshore"
+    ],
+    "senales": [
+      "Más de USD 100.000 líquidos",
+      "Tiene cuenta afuera con otro banco y quiere asesoramiento",
+      "Venta de una propiedad o de la empresa"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "venta_empresa",
+      "herencia"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": 100000,
+    "objetivos": [
+      "internacional",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "offshore"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Cuenta de inversión internacional (Pershing)",
+  "observaciones": [
+    "Es un instructivo, no un one pager: ficha nueva a partir de su contenido.",
+    "Tratamiento impositivo del instructivo dice 'renta 30%'; la matriz impositiva dice escala progresiva 5% a 35% para persona humana. Validar.",
+    "Coberturas (FDIC USD 250.000 y adicional USD 1.500.000) tomadas de Inversoras: validar."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

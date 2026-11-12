@@ -1,0 +1,116 @@
+{
+  "categoria": "Cobertura",
+  "cliente": {
+    "aTener": [
+      "Requiere integrar garantías y el resultado de los futuros se ajusta a diario.",
+      "El resultado depende de la ejecución de todas las patas de la estrategia."
+    ],
+    "bajada": "Estrategias que combinan contado y derivados para replicar el resultado de otro instrumento.",
+    "beneficios": [
+      [
+        "Resultado a medida",
+        "Tasa o cobertura diseñada para tu necesidad."
+      ],
+      [
+        "Arbitraje de tasas",
+        "Aprovecha diferencias entre la tasa implícita de los futuros y otras alternativas."
+      ],
+      [
+        "Ejecución de la Mesa",
+        "Diseño, ejecución y seguimiento de la estrategia."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos el resultado buscado: tasa, cobertura o arbitraje.",
+      "La Mesa arma la combinación de contado y derivados.",
+      "Se integran las garantías en A3.",
+      "La Mesa monitorea la posición hasta el vencimiento."
+    ],
+    "enNeix": "La Mesa diseña y ejecuta la estrategia y monitorea las garantías durante toda la operación.",
+    "ficha": {
+      "liquidez": "Diaria, con mark to market",
+      "mercado": "A3 y ByMA",
+      "minimo": "A consultar",
+      "moneda": "Pesos y dólares",
+      "plazo": "Según el vencimiento del derivado",
+      "riesgo": "Moderado a alto: requiere garantías"
+    },
+    "paraQuien": "Inversores sofisticados, empresas e institucionales que buscan una tasa o una cobertura a medida.",
+    "queEs": "Un sintético combina una posición contado con futuros u opciones para obtener un resultado que no se consigue con un instrumento directo. Por ejemplo, una tasa fija en pesos (compra de dólares y venta de futuro) o una cobertura cambiaria (posición en pesos y compra de futuro).",
+    "titular": "La tasa o la cobertura exacta que necesitás"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Banca Corporativa",
+  "impuestos": [
+    "opc_fut"
+  ],
+  "interno": {
+    "competencia": [],
+    "objeciones": [],
+    "operativa": [
+      "Coordinar la estrategia con la Mesa.",
+      "Integración de garantías en A3."
+    ],
+    "perfiles": [
+      "Tesorerías corporativas",
+      "Inversores sofisticados",
+      "Institucionales"
+    ],
+    "pitch": "Con un sintético armamos la tasa o la cobertura exacta que necesitás, combinando contado y futuros.",
+    "preguntas": [
+      "¿Buscás una tasa o una cobertura?",
+      "¿A qué plazo?"
+    ],
+    "relacionados": [
+      "futuros-dolar",
+      "opciones",
+      "cauciones",
+      "bonos-cer-dl"
+    ],
+    "senales": [
+      "Busca tasa fija en pesos",
+      "Necesita cobertura a un plazo puntual"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto",
+      "medio"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_devaluacion",
+      "renta",
+      "cobertura_precios"
+    ],
+    "perfiles": [
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Sintéticos (trade de derivados)",
+  "observaciones": [
+    "Producto sumado en el relevamiento de Banca Corporativa: falta one pager.",
+    "Validar descripción y estrategias habituales con la Mesa."
+  ],
+  "riesgoNivel": 4,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-11"
+}

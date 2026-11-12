@@ -1,0 +1,128 @@
+{
+  "categoria": "Internacional",
+  "cliente": {
+    "aTener": [
+      "Requiere dólares cable.",
+      "Para persona física, la renta tributa Ganancias y el fondo está alcanzado por Bienes Personales."
+    ],
+    "bajada": "Fondos de inversión del exterior que invierten en renta fija, acciones o estrategias mixtas globales.",
+    "beneficios": [
+      [
+        "Diversificación global",
+        "Exposición a mercados internacionales con un solo instrumento."
+      ],
+      [
+        "Gestión internacional",
+        "Gestoras globales administran la cartera."
+      ],
+      [
+        "Desde montos bajos",
+        "Suscripciones desde USD 1.000 con la operatoria internacional."
+      ]
+    ],
+    "comoFunciona": [
+      "Elegimos con vos el fondo según tu perfil y tu objetivo.",
+      "Suscribís con dólares cable desde tu cuenta en Neix o desde tu cuenta afuera.",
+      "Rescatás según el plazo de liquidación de cada fondo."
+    ],
+    "enNeix": "Es la solución más utilizada por los clientes de Banca Privada: seleccionamos los fondos según el perfil y los combinamos con el resto de la cartera.",
+    "ficha": {
+      "liquidez": "Según el fondo",
+      "mercado": "Gestoras internacionales",
+      "minimo": "Desde USD 1.000",
+      "moneda": "Dólares cable",
+      "plazo": "Según el fondo",
+      "riesgo": "Bajo a alto, según el fondo"
+    },
+    "paraQuien": "Inversores que buscan diversificar fuera de Argentina con gestión profesional, con perfiles de conservador a agresivo según el fondo.",
+    "queEs": "Los fondos offshore (mutual funds) son fondos de inversión constituidos en el exterior y administrados por gestoras internacionales. Invierten en renta fija, acciones o estrategias mixtas globales. Se suscriben en dólares cable desde la cuenta comitente en Neix o desde una cuenta en el exterior.",
+    "titular": "Una cartera global con gestión profesional"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Banca Privada + One pager · Operatoria internacional",
+  "impuestos": [
+    "fondos_ext"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Bancas privadas internacionales",
+        "Asesor local y mirada integral del patrimonio."
+      ],
+      [
+        "Brokers del exterior",
+        "Acompañamiento del asesor y operación desde la cuenta en Neix."
+      ]
+    ],
+    "objeciones": [],
+    "operativa": [
+      "Suscripción con dólares cable desde la cuenta comitente (operatoria internacional) o desde la cuenta en el exterior."
+    ],
+    "perfiles": [
+      "Clientes con dólares que buscan diversificar afuera",
+      "Carteras concentradas en riesgo argentino"
+    ],
+    "pitch": "La forma más simple de tener una cartera global: un fondo internacional, gestión profesional y suscripción desde USD 1.000.",
+    "preguntas": [
+      "¿Qué parte de tu patrimonio está hoy en riesgo argentino?",
+      "¿Tenés dólares cable o en una cuenta afuera?"
+    ],
+    "relacionados": [
+      "fci",
+      "cuentas-offshore",
+      "operatoria-internacional",
+      "canje",
+      "t-bills"
+    ],
+    "senales": [
+      "Dólares MEP o cable sin invertir",
+      "Cartera concentrada en bonos y ONs locales"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": 1000,
+    "objetivos": [
+      "internacional",
+      "preservar_usd",
+      "renta",
+      "crecimiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "fondos_off"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Fondos offshore (mutual funds)",
+  "observaciones": [
+    "Relevamiento BP: es el producto que más se opera en Banca Privada.",
+    "Relevamiento BP: 'hay 10 millones' en fondos offshore. Confirmar si es el volumen administrado y en qué moneda.",
+    "Falta listado de fondos y gestoras con las que se trabaja."
+  ],
+  "padre": "fci",
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-11"
+}

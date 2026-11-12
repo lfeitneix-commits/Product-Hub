@@ -1,0 +1,133 @@
+{
+  "categoria": "Liquidez y tesorería",
+  "cliente": {
+    "aTener": [
+      "Si tomás fondos, el monto máximo depende del aforo de cada título. Por ejemplo, un bono con aforo de 85% te permite tomar hasta 85% de su valor.",
+      "La tasa se fija al inicio y no cambia durante el plazo."
+    ],
+    "bajada": "Colocá tus excedentes a tasa de mercado por días, o conseguí liquidez usando tu cartera como garantía, sin venderla.",
+    "beneficios": [
+      [
+        "Rinde desde el primer día",
+        "Ideal para excedentes de días o semanas, con plazos que se renuevan."
+      ],
+      [
+        "Garantía del mercado",
+        "El riesgo de contraparte lo cubre el mercado, con garantías en exceso (aforo)."
+      ],
+      [
+        "Liquidez sin vender",
+        "Si tomás, usás tu cartera como garantía y mantenés tus posiciones."
+      ]
+    ],
+    "comoFunciona": [
+      "Definís si querés colocar o tomar fondos, el monto y el plazo (de 1 a 30 días).",
+      "Concertamos la operación en el mercado a la tasa del momento.",
+      "Al vencimiento recibís capital más intereses o devolvés lo tomado, y podés renovarla."
+    ],
+    "enNeix": "Operamos cauciones en ByMA y A3 todos los días. Te ayudamos a escalonar plazos para que tu tesorería tenga liquidez cuando la necesita.",
+    "ficha": {
+      "liquidez": "Al vencimiento de cada plazo",
+      "mercado": "ByMA y A3",
+      "minimo": "Sin mínimo relevante",
+      "moneda": "Pesos o dólares",
+      "plazo": "De 1 a 30 días",
+      "riesgo": "Bajo: garantizada por el mercado"
+    },
+    "paraQuien": "Tesorerías de empresas e inversores con pesos o dólares ociosos por pocos días. También para quien necesita liquidez puntual y tiene una cartera que no quiere vender.",
+    "queEs": "Una caución es un préstamo de corto plazo con garantía, que se hace dentro del mercado. Quien coloca presta su dinero y cobra una tasa. Quien toma recibe ese dinero y deja títulos (bonos o acciones) en garantía. El mercado actúa como garante de la operación.",
+    "titular": "Tu liquidez trabajando desde el primer día"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 2 · Cauciones bursátiles",
+  "impuestos": [
+    "caucion_ars",
+    "caucion_usd"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Plazo fijo y cuentas remuneradas",
+        "Plazos desde 1 día, garantía del mercado y tasa de mercado."
+      ]
+    ],
+    "objeciones": [
+      [
+        "El plazo fijo me paga parecido.",
+        "La caución se puede armar por un día y renovar, te da liquidez diaria y la garantía del mercado. Comparemos tasa neta y flexibilidad."
+      ]
+    ],
+    "operativa": [
+      "Se opera desde la cuenta comitente.",
+      "Colocadora: requiere fondos líquidos disponibles.",
+      "Tomadora: requiere títulos en garantía con el aforo que fija el mercado."
+    ],
+    "perfiles": [
+      "Tesorerías corporativas con excedentes transitorios",
+      "Clientes de Banca Privada con saldo líquido",
+      "Clientes con cartera que necesitan liquidez puntual (tomador)"
+    ],
+    "pitch": "Es la forma más simple y segura de que la plata de la tesorería rinda por días. Y si el cliente necesita liquidez, puede tomarla dejando su cartera en garantía, sin vender.",
+    "preguntas": [
+      "¿Cuántos días vas a tener esta plata disponible?",
+      "¿Necesitás liquidez y preferís no vender tu cartera?"
+    ],
+    "relacionados": [
+      "fci",
+      "echeq-tesoreria",
+      "fondo-dedicado",
+      "cheques",
+      "bonos-soberanos"
+    ],
+    "senales": [
+      "Saldo en pesos o dólares sin invertir en la cuenta",
+      "Cobro próximo de un pago grande",
+      "Necesita liquidez para una operación puntual y tiene bonos o acciones"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "tesoreria",
+      "renta",
+      "financiamiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [
+      "caucion"
+    ],
+    "tipos": [
+      "persona",
+      "pyme",
+      "grande",
+      "fa"
+    ]
+  },
+  "nombre": "Cauciones bursátiles",
+  "observaciones": [
+    "Plazo: dice 'Largo plazo' y el mismo texto aclara que son operaciones de 1 a 30 días. Corregir a 'Corto plazo'.",
+    "Los aforos de ejemplo (AL30 85%, Galicia 80%, T-Bills 93%) cambian: definir quién los actualiza y cada cuánto.",
+    "No aparece el tratamiento impositivo del lado tomador."
+  ],
+  "riesgoNivel": 1,
+  "simulador": "caucion",
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Corporativa",
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

@@ -1,0 +1,118 @@
+{
+  "categoria": "Renta fija",
+  "cliente": {
+    "aTener": [
+      "La adjudicación depende del resultado de la licitación.",
+      "El riesgo depende de cada emisor."
+    ],
+    "bajada": "La Mesa licita por vos bonos y ON en colocaciones locales y del exterior, y te los vende en pesos, MEP o la moneda que prefieras.",
+    "beneficios": [
+      [
+        "Pagás en tu moneda",
+        "Entrás a emisiones del exterior con pesos o MEP."
+      ],
+      [
+        "Cuidás tu situación cambiaria",
+        "Una alternativa para importadores dentro de la normativa."
+      ],
+      [
+        "Acceso a emisiones nuevas",
+        "La Mesa te acerca colocaciones locales y del exterior."
+      ]
+    ],
+    "comoFunciona": [
+      "Te avisamos de las licitaciones relevantes para tu perfil.",
+      "Definís monto y moneda de pago.",
+      "La Mesa licita, compra el bono y te lo vende en tu cuenta."
+    ],
+    "enNeix": "Participamos activamente en colocaciones primarias y resolvemos la operatoria para que solo decidas en qué invertir.",
+    "ficha": {
+      "liquidez": "Según el bono",
+      "mercado": "Local y exterior",
+      "minimo": "Según la emisión",
+      "moneda": "Pesos, MEP o cable",
+      "plazo": "Según la emisión",
+      "riesgo": "Según el emisor"
+    },
+    "paraQuien": "Inversores y empresas que quieren entrar en emisiones nuevas sin tener cable o sin comprometer su situación cambiaria.",
+    "queEs": "En una licitación primaria, una empresa o un gobierno emite un bono nuevo. Muchas de las emisiones del exterior se licitan afuera y requieren dólar cable. Si tenés pesos o dólares MEP, la Mesa licita el bono, lo compra y te lo vende localmente en la moneda que tengas. En licitaciones locales, si tu empresa es importadora y necesita cuidar su acceso al MULC, la Mesa compra los bonos en dólares y te los vende en pesos dentro de la normativa.",
+    "titular": "Participá de las emisiones nuevas, en la moneda que tengas"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [
+    "on_usd",
+    "tp_usd"
+  ],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Licitación y compra por la Mesa; venta al cliente vía CENEBI.",
+      "Cobro al cliente: opción 1, solo el arancel como cualquier compraventa. Opción 2, arancel más el fee de colocación que la Mesa negocia con la emisora o con otros brokers."
+    ],
+    "perfiles": [
+      "Inversores de renta fija",
+      "Empresas importadoras con excedentes",
+      "FAs con clientes que quieren primarias"
+    ],
+    "pitch": "Si querés entrar en una emisión del exterior y tenés pesos o MEP, la Mesa licita, compra y te lo vende en tu moneda. Y si sos importador, lo resolvemos sin que comprometas el MULC.",
+    "preguntas": [
+      "¿En qué moneda tenés disponible para invertir?"
+    ],
+    "relacionados": [
+      "obligaciones-negociables",
+      "bonos-soberanos",
+      "cable-importadores",
+      "bonos-iliquidos"
+    ],
+    "senales": [
+      "Pregunta por una emisión nueva",
+      "Tiene pesos o MEP y quiere bonos del exterior"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "excedente_liquidez",
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "renta",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "fa",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Licitaciones primarias",
+  "observaciones": [
+    "El esquema de cobro (arancel o arancel más fee de colocación) es información interna: no va en la vista cliente.",
+    "Validar redacción sobre importadores y MULC con Legales.",
+    "Confirmar el término CENEBI y el circuito de liquidación con la Mesa."
+  ],
+  "riesgoNivel": 3,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Privada",
+    "Banca Corporativa",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

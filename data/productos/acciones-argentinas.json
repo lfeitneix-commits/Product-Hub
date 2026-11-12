@@ -1,0 +1,110 @@
+{
+  "categoria": "Renta variable",
+  "cliente": {
+    "aTener": [
+      "Los resultados son muy variables y pueden ser negativos en plazos cortos.",
+      "Para persona humana, la venta está exenta de Ganancias y los dividendos tributan 7%."
+    ],
+    "bajada": "Invertí en las empresas que cotizan en la Bolsa local, con potencial de apreciación y cobro de dividendos.",
+    "beneficios": [
+      [
+        "Potencial de retorno",
+        "Históricamente, el instrumento de mayor potencial y también de mayor volatilidad."
+      ],
+      [
+        "Dividendos",
+        "Algunas compañías distribuyen parte de sus ganancias."
+      ],
+      [
+        "Liquidez",
+        "Comprás y vendés todos los días hábiles."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos qué parte de tu cartera tiene sentido en renta variable local.",
+      "Elegimos compañías según el análisis de nuestro equipo de Estrategia.",
+      "Operás desde tu cuenta comitente, en general en T+1."
+    ],
+    "enNeix": "Nuestro equipo de Estrategia sigue cada compañía y somos hacedores de mercado en acciones individuales en A3.",
+    "ficha": {
+      "liquidez": "Diaria",
+      "mercado": "ByMA",
+      "minimo": "1 acción",
+      "moneda": "Pesos, con dolarización vía CCL",
+      "plazo": "Largo; mínimo recomendado 3 años",
+      "riesgo": "Alto"
+    },
+    "paraQuien": "Inversores con perfil agresivo o con visión de largo plazo, que toleran movimientos fuertes de precio a cambio de mayor potencial de retorno.",
+    "queEs": "Una acción es una participación en una empresa. Invertir en acciones argentinas te expone al crecimiento de compañías locales de energía, bancos, servicios e industria. Su precio se mueve con los resultados de cada empresa y con el contexto del país, por eso tiene más volatilidad.",
+    "titular": "Sé parte del crecimiento de las compañías líderes del país"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager 10 · Acciones argentinas",
+  "impuestos": [
+    "acciones"
+  ],
+  "interno": {
+    "objeciones": [
+      [
+        "Es muy volátil.",
+        "Por eso es una parte de la cartera y con horizonte largo. El resto puede estar en instrumentos que te den estabilidad."
+      ]
+    ],
+    "operativa": [
+      "Desde cualquier cuenta comitente, liquidación T+1."
+    ],
+    "perfiles": [
+      "Perfil agresivo",
+      "Inversores con visión de largo plazo sobre Argentina"
+    ],
+    "pitch": "Si creés en el ciclo argentino, las acciones son la forma más directa de capturarlo. Con horizonte de 3 años o más.",
+    "preguntas": [
+      "¿Cuánto tiempo podés dejar esta inversión sin tocarla?",
+      "¿Cómo reaccionarías si cae 30% en un mes?"
+    ],
+    "relacionados": [
+      "cedears",
+      "opciones",
+      "fci",
+      "bonos-soberanos"
+    ],
+    "senales": [
+      "Pregunta por el 'rally' o el riesgo país",
+      "Cartera 100% renta fija con perfil que admite más riesgo"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [],
+    "horizonte": [
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "crecimiento"
+    ],
+    "perfiles": [
+      "agresivo"
+    ],
+    "tenencia": [
+      "acciones"
+    ],
+    "tipos": [
+      "persona",
+      "fa"
+    ]
+  },
+  "nombre": "Acciones argentinas",
+  "observaciones": [
+    "Sumar el rol de Neix como Hacedor de Mercado Tier 1 en futuros del Índice ROFEX 20 y acciones individuales: es un diferencial concreto."
+  ],
+  "riesgoNivel": 5,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

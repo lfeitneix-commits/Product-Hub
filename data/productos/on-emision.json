@@ -1,0 +1,127 @@
+{
+  "categoria": "Financiamiento",
+  "cliente": {
+    "aTener": [
+      "La tasa depende de la calificación crediticia de la empresa y de las condiciones de mercado.",
+      "La emisión requiere documentación y cumplimiento de requisitos regulatorios."
+    ],
+    "bajada": "Emití deuda propia para financiar inversiones o capital de trabajo, a mediano y largo plazo.",
+    "beneficios": [
+      [
+        "Financiamiento en el mercado",
+        "Acceso a una base amplia de inversores, más allá del crédito bancario."
+      ],
+      [
+        "Plazos más largos",
+        "Financiamiento de mediano y largo plazo para proyectos de inversión."
+      ],
+      [
+        "Distintas monedas",
+        "Emisiones en pesos, dólar MEP, dólar cable o dollar linked."
+      ]
+    ],
+    "comoFunciona": [
+      "Definimos con la empresa monto, moneda, plazo y estructura de la emisión.",
+      "Se prepara la documentación y, si corresponde, la calificación crediticia.",
+      "Neix coloca la ON entre inversores en la licitación.",
+      "La empresa recibe los fondos y paga intereses y capital según el cronograma."
+    ],
+    "enNeix": "Acompañamos a la empresa en el armado de la emisión y colocamos la ON en el mercado.",
+    "ficha": {
+      "liquidez": "Los fondos se acreditan al liquidar la licitación",
+      "mercado": "ByMA y A3",
+      "minimo": "A consultar",
+      "moneda": "Pesos, dólar MEP, dólar cable, dollar linked",
+      "plazo": "Mediano / largo plazo",
+      "riesgo": "Moderado / bajo (para el inversor, según la calificación)"
+    },
+    "paraQuien": "Empresas que buscan financiamiento de mediano y largo plazo a través del mercado de capitales.",
+    "queEs": "Las obligaciones negociables (ON) son títulos de deuda que emiten las empresas para obtener financiamiento en el mercado de capitales. La empresa coloca la ON entre inversores y paga intereses y capital según las condiciones de emisión. Los fondos suelen destinarse a inversión en infraestructura para el desarrollo del negocio o a capital de trabajo. La calificación crediticia de la empresa es clave para definir la tasa.",
+    "titular": "Financiá el crecimiento de tu empresa en el mercado de capitales"
+  },
+  "estado": "a_validar",
+  "fuente": "One pager · Obligaciones negociables (Banca Corporativa)",
+  "impuestos": [
+    "on_usd",
+    "on_pesos"
+  ],
+  "interno": {
+    "competencia": [
+      [
+        "Préstamos bancarios",
+        "Plazos más largos y acceso a una base amplia de inversores."
+      ],
+      [
+        "Otros colocadores",
+        "Acompañamiento integral y red de inversores de Neix."
+      ]
+    ],
+    "objeciones": [
+      [
+        "Es muy complejo",
+        "Neix acompaña todo el proceso de emisión y colocación."
+      ]
+    ],
+    "operativa": [
+      "Coordinar con Banca Corporativa y Mesa el armado de la emisión.",
+      "Colocación en ByMA y A3."
+    ],
+    "perfiles": [
+      "Empresas medianas y grandes con información financiera ordenada",
+      "PyMEs que ya se financian con cheques o pagarés y buscan plazos más largos"
+    ],
+    "pitch": "Con una ON tu empresa se financia en el mercado de capitales, a plazos más largos que el crédito bancario y con una base amplia de inversores.",
+    "preguntas": [
+      "¿Qué proyecto necesitás financiar y en qué plazo?",
+      "¿Tu empresa tiene calificación crediticia?"
+    ],
+    "relacionados": [
+      "pagares",
+      "cheques",
+      "avales-sgr",
+      "licitaciones-primarias",
+      "fideicomisos"
+    ],
+    "senales": [
+      "Proyecto de inversión o expansión",
+      "Necesidad de capital de trabajo de mediano plazo",
+      "Crédito bancario caro o limitado"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "necesita_financiamiento"
+    ],
+    "horizonte": [
+      "medio",
+      "largo"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "ONs (emisión)",
+  "observaciones": [
+    "Validar con Banca Corporativa montos mínimos y costos de emisión de referencia."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-11"
+}

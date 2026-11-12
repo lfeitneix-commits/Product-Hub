@@ -1,0 +1,13 @@
+# Dependencias y builds
+node_modules/
+.vercel/
+
+# Credenciales: nunca al repo
+.env
+.env.*
+!.env.example
+*service-account*.json
+serviceAccountKey*.json
+
+# Sistema
+.DS_Store

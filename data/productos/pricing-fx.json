@@ -1,0 +1,119 @@
+{
+  "categoria": "Comercio exterior y FX",
+  "cliente": {
+    "aTener": [
+      "Los precios varían durante el día según el mercado."
+    ],
+    "bajada": "La Mesa de Neix cotiza MEP, cable y canje con precios muy competitivos, desde montos chicos hasta operaciones grandes.",
+    "beneficios": [
+      [
+        "Precio competitivo",
+        "Cotizaciones de mercado para cualquier tamaño."
+      ],
+      [
+        "Rapidez",
+        "Precio en el momento y ejecución inmediata."
+      ],
+      [
+        "Todas las patas",
+        "MEP, cable y canje en un solo lugar."
+      ]
+    ],
+    "comoFunciona": [
+      "Le pedís cotización a tu asesor o a la Mesa.",
+      "Te damos el precio en el momento.",
+      "Si te sirve, ejecutamos y liquidamos en tu cuenta."
+    ],
+    "enNeix": "Somos una de las mesas más activas del mercado, con presencia en ByMA, A3 y MAV.",
+    "ficha": {
+      "liquidez": "Inmediata",
+      "mercado": "ByMA y A3",
+      "minimo": "Cualquier monto",
+      "moneda": "Pesos, MEP, cable",
+      "plazo": "Inmediato",
+      "riesgo": "Bajo"
+    },
+    "paraQuien": "Empresas e inversores que operan dólares con frecuencia o por montos relevantes.",
+    "queEs": "Cuando necesitás comprar o vender dólares, el precio importa. La Mesa de Neix cotiza dólar MEP, contado con liquidación (cable) y canje con precios competitivos para cualquier tamaño de operación. Nos podés pedir cotización de lo que necesites.",
+    "titular": "El mejor precio para tus dólares, para cualquier monto"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "id": "pricing-fx",
+  "impuestos": [],
+  "interno": {
+    "competencia": [],
+    "objeciones": [
+      [
+        "Mi banco me da buen precio.",
+        "Pedinos cotización la próxima vez y comparamos punta contra punta."
+      ]
+    ],
+    "operativa": [
+      "Solicitud de cotización a la Mesa por el canal habitual.",
+      "Ejecución y liquidación en cuenta comitente."
+    ],
+    "perfiles": [
+      "Empresas con flujos en dólares",
+      "Inversores que dolarizan seguido",
+      "FAs que operan para sus clientes"
+    ],
+    "pitch": "Pedinos precio de lo que quieras, del tamaño que sea. En FX somos muy competitivos.",
+    "preguntas": [
+      "¿Dónde estás haciendo hoy tus operaciones de cambio y a qué precio?"
+    ],
+    "relacionados": [
+      "cable-importadores",
+      "futuros-dolar",
+      "operatoria-internacional",
+      "operaciones-bloque"
+    ],
+    "senales": [
+      "Opera dólares con otro broker o banco",
+      "Compra MEP o cable regularmente"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "importa_exporta",
+      "excedente_liquidez"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "cobertura_devaluacion",
+      "tesoreria",
+      "preservar_usd"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "persona",
+      "fa",
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Cotizaciones FX",
+  "observaciones": [
+    "Ficha nueva: validar con la Mesa horarios y canal de cotización."
+  ],
+  "riesgoNivel": 1,
+  "simulador": null,
+  "ultimaRevision": "2026-11-11",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Corporativa",
+    "Banca Privada",
+    "Financial Advisors"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

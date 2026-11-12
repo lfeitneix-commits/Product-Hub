@@ -1,0 +1,110 @@
+{
+  "categoria": "Comercio exterior y FX",
+  "cliente": {
+    "aTener": [
+      "Cada caso requiere un análisis de la situación cambiaria de la empresa.",
+      "Las condiciones dependen de la normativa vigente al momento de operar."
+    ],
+    "bajada": "Una alternativa de la Mesa para que tu empresa pague compromisos en el exterior dentro de la normativa cambiaria vigente.",
+    "beneficios": [
+      [
+        "Pagos afuera en orden",
+        "Una solución concreta para cancelar compromisos en el exterior."
+      ],
+      [
+        "Pricing competitivo",
+        "La Mesa cotiza el cable con precios de mercado para cualquier monto."
+      ],
+      [
+        "Acompañamiento",
+        "Te guiamos en cada paso de la estructura."
+      ]
+    ],
+    "comoFunciona": [
+      "Analizamos tu situación cambiaria y los compromisos a cancelar.",
+      "La Mesa cotiza el dólar cable y define la estructura.",
+      "Gestionamos el parking de los bonos y la venta del cable.",
+      "Tu empresa cancela el pago en el exterior."
+    ],
+    "enNeix": "Nuestra Mesa diseña y ejecuta la operación completa, con criterio y foco en el cumplimiento normativo.",
+    "ficha": {
+      "liquidez": "Al finalizar la operación",
+      "mercado": "ByMA / A3",
+      "minimo": "A consultar",
+      "moneda": "Dólares cable",
+      "plazo": "Según el parking normativo",
+      "riesgo": "Bajo: riesgo de precio durante el parking"
+    },
+    "paraQuien": "Empresas importadoras con deudas comerciales o financieras en el exterior.",
+    "queEs": "Muchas empresas importadoras necesitan pagar deudas en el exterior y, a la vez, cuidar su acceso al Mercado Libre de Cambios (MULC). La Mesa cotiza el dólar cable, gestiona el parking de los bonos y vende el cable para que tu empresa pueda cancelar sus compromisos afuera, con una estructura pensada para respetar la normativa.",
+    "titular": "Cancelá tus deudas en el exterior cuidando tu acceso al mercado de cambios"
+  },
+  "estado": "a_validar",
+  "fuente": "Relevamiento Mesa (nov 2026) · sin one pager",
+  "impuestos": [],
+  "interno": {
+    "objeciones": [],
+    "operativa": [
+      "Análisis de la situación cambiaria del cliente.",
+      "Cotización del cable por la Mesa.",
+      "Parking de bonos y venta del cable."
+    ],
+    "perfiles": [
+      "Importadores con deuda comercial o financiera afuera",
+      "Empresas con restricciones cruzadas del MULC"
+    ],
+    "pitch": "Si tu empresa tiene que pagar afuera y no puede comprometer su acceso al MULC, la Mesa te da el vehículo: cotiza el cable, hace el parking de los bonos y te vende el cable para pagar.",
+    "preguntas": [
+      "¿Tenés pagos al exterior pendientes?",
+      "¿Accediste al MULC en los últimos 90 días?"
+    ],
+    "relacionados": [
+      "pricing-fx",
+      "futuros-dolar",
+      "licitaciones-primarias",
+      "cheques"
+    ],
+    "senales": [
+      "Tiene deudas con proveedores del exterior pendientes",
+      "Menciona dificultades para pagar afuera por el MULC"
+    ],
+    "video": ""
+  },
+  "match": {
+    "eventos": [
+      "importa_exporta"
+    ],
+    "horizonte": [
+      "corto"
+    ],
+    "minimoUSD": null,
+    "objetivos": [
+      "financiamiento",
+      "tesoreria"
+    ],
+    "perfiles": [
+      "conservador",
+      "moderado",
+      "agresivo"
+    ],
+    "tenencia": [],
+    "tipos": [
+      "pyme",
+      "grande"
+    ]
+  },
+  "nombre": "Pagos al exterior para importadores",
+  "observaciones": [
+    "Tema regulatorio sensible: la redacción para clientes debe validarse con Legales antes de enviarse.",
+    "Validar con la Mesa: plazos de parking, costos y documentación requerida."
+  ],
+  "riesgoNivel": 2,
+  "simulador": null,
+  "ultimaRevision": "2026-11-06",
+  "unidades": [
+    "Mercado de Capitales",
+    "Banca Corporativa"
+  ],
+  "validador": "",
+  "vence": "2027-02-06"
+}

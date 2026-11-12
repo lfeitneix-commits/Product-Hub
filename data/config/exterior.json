@@ -1,0 +1,80 @@
+{
+  "bancos": [],
+  "cuentas": [
+    {
+      "detalle": "A nombre del cliente o de su sociedad. Tarjeta de débito asociada. Cobertura FDIC USD 250.000 (validar).",
+      "ficha": "cuentas-offshore",
+      "minimo": "USD 100.000",
+      "nombre": "Pershing (BNY) vía Neix",
+      "tipo": "Cuenta de inversión"
+    },
+    {
+      "detalle": "Banca privada internacional.",
+      "ficha": "",
+      "minimo": "[a confirmar]",
+      "nombre": "J.P. Morgan",
+      "tipo": "Cuenta de inversión"
+    },
+    {
+      "detalle": "Broker internacional.",
+      "ficha": "",
+      "minimo": "[a confirmar]",
+      "nombre": "Interactive Brokers",
+      "tipo": "Cuenta de inversión"
+    },
+    {
+      "detalle": "Custodia internacional.",
+      "ficha": "",
+      "minimo": "[a confirmar]",
+      "nombre": "BNY Mellon",
+      "tipo": "Cuenta de inversión"
+    },
+    {
+      "detalle": "Broker internacional.",
+      "ficha": "",
+      "minimo": "[a confirmar]",
+      "nombre": "StoneX",
+      "tipo": "Cuenta de inversión"
+    },
+    {
+      "detalle": "Se opera con dólares cable desde la cuenta comitente local.",
+      "ficha": "operatoria-internacional",
+      "minimo": "Fondos desde USD 1.000",
+      "nombre": "Operatoria internacional desde la cuenta Neix",
+      "tipo": "Sin cuenta afuera"
+    }
+  ],
+  "estructuras": [
+    {
+      "costo": "Desde USD 1.600 constitución + anualidad (validar)",
+      "jurisdiccion": "Islas Vírgenes Británicas",
+      "nombre": "Sociedad en BVI",
+      "uso": "Titularidad de activos y cuentas en el exterior; sucesión ordenada."
+    },
+    {
+      "costo": "[a confirmar]",
+      "jurisdiccion": "Nevis",
+      "nombre": "Sociedad en Nevis",
+      "uso": "Titularidad de activos y cuentas en el exterior."
+    },
+    {
+      "costo": "[a confirmar]",
+      "jurisdiccion": "EE.UU.",
+      "nombre": "LLC",
+      "uso": "Vehículo para operar o invertir en EE.UU."
+    },
+    {
+      "costo": "[a confirmar]",
+      "jurisdiccion": "Canadá",
+      "nombre": "Sociedad en Canadá",
+      "uso": "Alternativa de titularidad según el caso."
+    },
+    {
+      "costo": "[a confirmar]",
+      "jurisdiccion": "Según el caso",
+      "nombre": "Trust",
+      "uso": "Planificación sucesoria: el trustee administra en favor de los beneficiarios."
+    }
+  ],
+  "nota": "Versión inicial con datos de las fichas. Completar mínimos, costos y bancos con Banca Privada."
+}
